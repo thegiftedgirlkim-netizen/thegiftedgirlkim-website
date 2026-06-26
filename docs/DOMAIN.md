@@ -90,7 +90,7 @@ Website hosting does **not** include email. Keep email DNS separate:
 - If using Google Workspace / Microsoft 365, keep their MX records.
 - Adding A/CNAME records for the website does not break email unless you remove MX records.
 
-Support email `support@kimberlyhaggy.com` can stay on its current provider — no change needed for the website.
+Support email: **thegiftedgirlkim@gmail.com** (Gmail — no domain email setup required for the website).
 
 ---
 

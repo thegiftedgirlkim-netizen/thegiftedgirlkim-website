@@ -75,7 +75,7 @@ export function renderFooter() {
       <div class="container footer-top">
         <div>
           <div class="footer-brand">${site.brandShort}</div>
-          <p class="footer-tagline">Dream it. Build it. Help others. ♡</p>
+          <p class="footer-motto">${site.motto}</p>
           <p class="footer-tagline">${site.role}</p>
         </div>
         <div class="footer-newsletter">

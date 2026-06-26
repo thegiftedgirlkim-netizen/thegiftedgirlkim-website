@@ -9,7 +9,8 @@ const pages = [
   'about',
   'support',
   'privacy',
-  'contact'
+  'contact',
+  '404'
 ];
 
 export default defineConfig({
