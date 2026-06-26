@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — The Gifted Girl Kim LLC</title>
+  <meta name="description" content="Contact The Gifted Girl Kim LLC — app support, collaborations, and general inquiries.">
+  <link rel="icon" href="/assets/brand/company-logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/base.css">
+  <link rel="stylesheet" href="/src/css/components.css">
+</head>
+<body class="page-shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-site-header></div>
+  <main id="main" class="page-main">
+    <section class="page-hero page-hero--compact">
+      <div class="container">
+        <p class="eyebrow">Let's Connect</p>
+        <h1 class="page-hero__title">Contact</h1>
+        <p class="page-hero__lead">Questions, support, collaborations, or just a kind hello — I'd love to hear from you.</p>
+      </div>
+    </section>
+    <section class="section" style="padding-top:0;">
+      <div class="container split-panel">
+        <div class="prose">
+          <h2>Reach Out ♡</h2>
+          <p>Email: <a href="mailto:support@kimberlyhaggy.com">support@kimberlyhaggy.com</a></p>
+          <p>For faster help with an app, include the app name, your device, and what you were trying to do.</p>
+          <p>Business inquiries, speaking, and collaboration requests are welcome too.</p>
+        </div>
+        <form class="contact-form info-card" data-contact-form>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="App Support">App Support</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Business / Collaboration">Business / Collaboration</option>
+              <option value="Books">Books</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message ✨</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <script type="module" src="/src/js/contact-page.js"></script>
+</body>
+</html>

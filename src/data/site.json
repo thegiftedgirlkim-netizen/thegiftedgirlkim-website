@@ -1,0 +1,53 @@
+{
+  "company": "The Gifted Girl Kim LLC",
+  "brandShort": "The Gifted Girl Kim",
+  "tagline": "Apps • Books • Shop • Digital Media",
+  "role": "App Developer / Author / Digital Creator",
+  "email": "support@kimberlyhaggy.com",
+  "website": "https://thegiftedgirlkim.com",
+  "amazonAuthor": {
+    "url": "https://www.amazon.com/THE-GIFTED-GIRL-KIM/e/B0GXY64PCX",
+    "label": "View all books on Amazon"
+  },
+  "etsyShop": {
+    "url": "https://www.etsy.com/shop/THEGIFTEDGIRLKIMSHOP",
+    "handle": "THEGIFTEDGIRLKIMSHOP",
+    "label": "The Gifted Girl Kim Shop"
+  },
+  "social": {
+    "etsy": "https://www.etsy.com/shop/THEGIFTEDGIRLKIMSHOP",
+    "instagram": "",
+    "facebook": "",
+    "tiktok": "",
+    "youtube": ""
+  },
+  "values": [
+    {
+      "icon": "💗",
+      "title": "Apps With Heart",
+      "text": "Built to inspire, support, and empower."
+    },
+    {
+      "icon": "🔒",
+      "title": "Privacy First",
+      "text": "Your privacy matters. Always."
+    },
+    {
+      "icon": "✨",
+      "title": "Faith. Family. Purpose.",
+      "text": "Guided by faith and built with purpose."
+    },
+    {
+      "icon": "📚",
+      "title": "Author & Creator",
+      "text": "Books, apps, and digital media for the soul."
+    }
+  ],
+  "hero": {
+    "eyebrow": "The Gifted Girl Kim LLC",
+    "headline": "Apps That Inspire. Tools That Help. Created With Purpose.",
+    "subhead": "App developer, author, and digital creator — building thoughtful mobile apps, books, Etsy finds, and digital media designed to uplift, encourage, and make everyday life a little brighter.",
+    "quote": "Turning visions into apps that make a difference.",
+    "quoteAuthor": "Kimberly"
+  }
+}

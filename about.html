@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Kimberly — The Gifted Girl Kim LLC</title>
+  <meta name="description" content="Meet Kimberly Haggy — app developer, author, and digital creator behind The Gifted Girl Kim LLC.">
+  <link rel="icon" href="/assets/brand/company-logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/base.css">
+  <link rel="stylesheet" href="/src/css/components.css">
+</head>
+<body class="page-shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-site-header></div>
+  <main id="main" class="page-main">
+    <section class="page-hero page-hero--compact">
+      <div class="container">
+        <p class="eyebrow">About</p>
+        <h1 class="page-hero__title">About Kimberly</h1>
+        <p class="page-hero__lead">Independent app developer, author, and digital creator — building tools and stories that uplift, encourage, and make a difference.</p>
+      </div>
+    </section>
+    <section class="section" style="padding-top:0;">
+      <div class="container split-panel">
+        <div>
+          <img src="/assets/brand/company-logo.jpeg" alt="The Gifted Girl Kim LLC logo with pink crystal and wings" class="about-photo" width="320" height="320">
+        </div>
+        <div class="prose">
+          <h2>Hi, I'm Kimberly ♡</h2>
+          <p>I'm the founder of <strong>The Gifted Girl Kim LLC</strong>, where I create mobile apps, books, and digital media with purpose. My work blends thoughtful design, privacy-first engineering, and a warm, faith-guided creative spirit.</p>
+          <p>From screenshot cleanup tools and nature discovery apps to Scripture companions and heartfelt books, every project starts with a simple question: <em>How can this genuinely help someone?</em></p>
+          <p>I believe technology should feel human — beautiful, trustworthy, and built with care. Whether you're downloading an app, reading a book, shopping on my <a href="https://www.etsy.com/shop/THEGIFTEDGIRLKIMSHOP" target="_blank" rel="noopener noreferrer">Etsy store</a>, or reaching out for support, I want your experience to feel warm, respectful, and worth your time.</p>
+          <div class="hero__actions" style="margin-top:1.5rem;">
+            <a href="/apps.html" class="btn btn-primary">Explore Apps</a>
+            <a href="/books.html" class="btn btn-secondary">My Books</a>
+            <a href="https://www.amazon.com/THE-GIFTED-GIRL-KIM/e/B0GXY64PCX" class="btn btn-secondary" data-amazon-author target="_blank" rel="noopener noreferrer">Amazon Author Page →</a>
+            <a href="/shop.html" class="btn btn-secondary">Visit Shop</a>
+            <a href="/contact.html" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <script type="module">
+    import { mountShell, getSite } from '/src/js/layout.js';
+    mountShell();
+    const author = getSite().amazonAuthor;
+    const link = document.querySelector('[data-amazon-author]');
+    if (link && author?.url) link.href = author.url;
+  </script>
+</body>
+</html>

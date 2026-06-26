@@ -1,0 +1,16 @@
+{
+  "name": "thegiftedgirlkim-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Official website for The Gifted Girl Kim LLC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync-assets": "node scripts/sync-assets.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

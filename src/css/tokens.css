@@ -1,0 +1,40 @@
+/* The Gifted Girl Kim LLC — Design Tokens */
+:root {
+  --pink-50: #fff5fb;
+  --pink-100: #ffe4f3;
+  --pink-200: #ffc9e8;
+  --pink-300: #ff9fd4;
+  --pink-400: #f472b6;
+  --pink-500: #ec4899;
+  --pink-600: #db2777;
+  --pink-700: #be185d;
+  --pink-800: #9d174d;
+  --rose-glow: #ff6eb4;
+  --magenta: #d946a8;
+
+  --white: #ffffff;
+  --off-white: #fffbfd;
+  --ink: #1a1220;
+  --ink-soft: #4a3f52;
+  --ink-muted: #7a6f82;
+  --line: rgba(219, 39, 119, 0.12);
+  --line-strong: rgba(219, 39, 119, 0.22);
+
+  --shadow-sm: 0 4px 20px rgba(190, 24, 93, 0.08);
+  --shadow-md: 0 12px 40px rgba(190, 24, 93, 0.12);
+  --shadow-lg: 0 24px 60px rgba(190, 24, 93, 0.16);
+  --shadow-card: 0 8px 32px rgba(26, 18, 32, 0.06);
+
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --header-h: 92px;
+  --container: 1180px;
+  --section-y: clamp(4rem, 8vw, 6.5rem);
+}
