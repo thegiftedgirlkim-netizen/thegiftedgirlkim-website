@@ -44,6 +44,7 @@ const copies = [
   ['Graphics/Images/logo resized.jpeg', 'public/assets/brand/company-logo.jpeg'],
   ['Apps/Screenshot Goblin/public/assets/mascot/app-icon-1024.png', 'public/assets/apps/screenshot-goblin.png'],
   ['Apps/Digital Chapel/CURRENT BUILD - Apple iPad Fix 2026-06-25/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png', 'public/assets/apps/digital-chapel.png'],
+  ['Apps/Widget Guru Studio/assets/brand-universe/widget-guru.png', 'public/assets/apps/widget-guru-studio.png'],
   ['Archives/Interrupted Partial Copies/WidgetMe_partial_20260624_201612/assets/brand-universe/memory-friend.png', 'public/assets/apps/memory-friend.png'],
   ['Archives/Interrupted Partial Copies/WidgetMe_partial_20260624_201612/assets/brand-universe/mobile-eyes.png', 'public/assets/apps/mobile-eyes.png'],
   ['Graphics/Images/Through my eyes book cover.jpg', 'public/assets/books/through-my-eyes.jpg'],

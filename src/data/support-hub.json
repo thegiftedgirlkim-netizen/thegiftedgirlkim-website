@@ -240,6 +240,30 @@
           "answer": "Snow is Kimberly's Siberian Husky and the heart of Snow Patrol — a playful, heartfelt adventure inspired by real life."
         }
       ]
+    },
+    "widget-guru-studio": {
+      "version": "1.0.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Widget Guru Studio stores favorites and widget configuration locally on your device. When you save a wallpaper, the image is written to your photo library with your permission. We do not collect, upload, or sell personal information.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "No third-party analytics or advertising SDKs. Apple App Store / Google Play billing when applicable.",
+      "knownIssues": ["Home screen widgets require platform-specific setup — follow in-app Guru Tips.", "Some theme packs are decorative previews that may expand in future updates."],
+      "plannedFeatures": ["More widget styles", "Expanded wallpaper collections", "Deeper theme customization"],
+      "faqs": [
+        {
+          "question": "Does Widget Guru Studio upload my favorites?",
+          "answer": "No. Favorites and widget configs stay on your device. Nothing is uploaded to our servers."
+        },
+        {
+          "question": "Why does the app ask for Photos access?",
+          "answer": "Only when you tap Save to Gallery on a wallpaper. The app does not read your entire photo library."
+        },
+        {
+          "question": "Is this the same as Widget Me?",
+          "answer": "No. Widget Guru Studio is a new app with a new bundle ID (com.thegiftedgirlkim.widgetgurustudio) published by The Gifted Girl Kim LLC."
+        }
+      ]
     }
   }
 }

@@ -157,6 +157,19 @@
       "links": { "ios": "", "android": "", "support": "/support/snow-patrol.html", "privacy": "/privacy/snow-patrol.html" }
     },
     {
+      "id": "widget-guru-studio",
+      "name": "Widget Guru Studio",
+      "tagline": "Customize your world.",
+      "description": "Browse widgets, wallpapers, themes, and quote cards — save favorites and personalize your phone with Widget Guru as your guide.",
+      "icon": "/assets/apps/widget-guru-studio.png",
+      "iconSource": "Kimberly_App_Studio/Apps/Widget Guru Studio/assets/brand-universe/widget-guru.png",
+      "category": "Lifestyle",
+      "status": "Preparing for App Store",
+      "featured": true,
+      "order": 12,
+      "links": { "ios": "", "android": "", "support": "/support/widget-guru-studio.html", "privacy": "/privacy/widget-guru-studio.html" }
+    },
+    {
       "id": "gem-and-me",
       "name": "Gem & Me",
       "tagline": "Your gentle AI companion.",
