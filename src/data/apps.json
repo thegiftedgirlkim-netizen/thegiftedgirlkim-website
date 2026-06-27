@@ -12,7 +12,7 @@
       "featured": true,
       "order": 1,
       "iosAppId": "6782643746",
-      "links": { "ios": "", "android": "", "support": "/support.html#screenshot-goblin" }
+      "links": { "ios": "", "android": "", "support": "/support/screenshot-goblin.html", "privacy": "/privacy/screenshot-goblin.html" }
     },
     {
       "id": "digital-chapel",
@@ -26,7 +26,7 @@
       "featured": true,
       "order": 2,
       "iosAppId": "6781108213",
-      "links": { "ios": "", "android": "", "support": "/support.html#digital-chapel" }
+      "links": { "ios": "", "android": "", "support": "/support/digital-chapel.html", "privacy": "/privacy/digital-chapel.html" }
     },
     {
       "id": "afterlife-network",
@@ -43,7 +43,8 @@
       "links": {
         "ios": "https://apps.apple.com/app/id6781073734",
         "android": "",
-        "support": "/support.html#afterlife-network"
+        "support": "/support/afterlife-network.html",
+        "privacy": "/privacy/afterlife-network.html"
       }
     },
     {
@@ -61,7 +62,8 @@
       "links": {
         "ios": "https://apps.apple.com/app/id6780708874",
         "android": "",
-        "support": "/support.html#mappy-navigation"
+        "support": "/support/mappy-navigation.html",
+        "privacy": "/privacy/mappy-navigation.html"
       }
     },
     {
@@ -79,7 +81,8 @@
       "links": {
         "ios": "https://apps.apple.com/app/id6780117824",
         "android": "",
-        "support": "/support.html#meditation-journey-444"
+        "support": "/support/meditation-journey-444.html",
+        "privacy": "/privacy/meditation-journey-444.html"
       }
     },
     {
@@ -93,7 +96,7 @@
       "status": "Packaging",
       "featured": true,
       "order": 6,
-      "links": { "ios": "", "android": "", "support": "/support.html#memory-friend" }
+      "links": { "ios": "", "android": "", "support": "/support/memory-friend.html", "privacy": "/privacy/memory-friend.html" }
     },
     {
       "id": "socialnature",
@@ -110,7 +113,8 @@
       "links": {
         "ios": "https://apps.apple.com/app/id6782241664",
         "android": "",
-        "support": "/support.html#socialnature"
+        "support": "/support/socialnature.html",
+        "privacy": "/privacy/socialnature.html"
       }
     },
     {
@@ -124,7 +128,7 @@
       "status": "Archived",
       "featured": false,
       "order": 8,
-      "links": { "ios": "", "android": "", "support": "/support.html#dream-board" }
+      "links": { "ios": "", "android": "", "support": "/support/dream-board.html", "privacy": "/privacy/dream-board.html" }
     },
     {
       "id": "mobile-eyes",
@@ -137,7 +141,7 @@
       "status": "Prototype",
       "featured": false,
       "order": 9,
-      "links": { "ios": "", "android": "", "support": "/support.html#mobile-eyes" }
+      "links": { "ios": "", "android": "", "support": "/support/mobile-eyes.html", "privacy": "/privacy/mobile-eyes.html" }
     },
     {
       "id": "snow-patrol",
@@ -150,7 +154,7 @@
       "status": "In Development",
       "featured": false,
       "order": 10,
-      "links": { "ios": "", "android": "", "support": "/support.html#snow-patrol" }
+      "links": { "ios": "", "android": "", "support": "/support/snow-patrol.html", "privacy": "/privacy/snow-patrol.html" }
     },
     {
       "id": "gem-and-me",
@@ -163,7 +167,7 @@
       "status": "Prototype",
       "featured": false,
       "order": 11,
-      "links": { "ios": "", "android": "", "support": "/support.html#gem-and-me" }
+      "links": { "ios": "", "android": "", "support": "/support/gem-and-me.html", "privacy": "/privacy/gem-and-me.html" }
     }
   ]
 }

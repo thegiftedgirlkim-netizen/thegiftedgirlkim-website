@@ -70,6 +70,14 @@ export function renderHeader() {
 
 export function renderFooter() {
   const year = new Date().getFullYear();
+  const social = site.social || {};
+  const socialLinks = [
+    social.instagram && { href: social.instagram, label: 'Instagram' },
+    social.tiktok && { href: social.tiktok, label: 'TikTok' },
+    social.youtube && { href: social.youtube, label: 'YouTube' },
+    social.etsy && { href: social.etsy, label: 'Etsy' }
+  ].filter(Boolean);
+
   return `
     <footer class="site-footer">
       <div class="container footer-top">
@@ -77,6 +85,11 @@ export function renderFooter() {
           <div class="footer-brand">${site.brandShort}</div>
           <p class="footer-motto">${site.motto}</p>
           <p class="footer-tagline">${site.role}</p>
+          ${socialLinks.length ? `
+            <div class="footer-social" aria-label="Social links">
+              ${socialLinks.map(link => `<a href="${link.href}" target="_blank" rel="noopener noreferrer">${link.label} ↗</a>`).join('')}
+            </div>
+          ` : ''}
         </div>
         <div class="footer-newsletter">
           <h3>New apps, updates & inspiration</h3>
@@ -98,6 +111,7 @@ export function renderFooter() {
           <a href="/about.html">About</a>
           <a href="/support.html">Support</a>
           <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
           <a href="/contact.html">Contact</a>
         </div>
         <div>© ${year} ${site.company}. All rights reserved.</div>

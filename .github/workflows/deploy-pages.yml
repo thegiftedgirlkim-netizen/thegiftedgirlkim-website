@@ -34,8 +34,12 @@ jobs:
       - name: Verify dist homepage is production build
         run: |
           test -f dist/index.html
+          test -f dist/support.html
+          test -f dist/terms.html
+          test -f dist/support/screenshot-goblin.html
+          test -f dist/privacy/screenshot-goblin.html
           grep -q '/assets/' dist/index.html
-          grep -q 'data-hero' dist/index.html
+          grep -q 'data-support-home' dist/support.html
           ! grep -q '/src/js/main.js' dist/index.html
           ! grep -q '/src/css/' dist/index.html
 

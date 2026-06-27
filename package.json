@@ -5,10 +5,11 @@
   "type": "module",
   "description": "Official website for The Gifted Girl Kim LLC",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node scripts/generate-support-pages.mjs && vite",
+    "build": "node scripts/generate-support-pages.mjs && vite build",
     "preview": "vite preview",
-    "sync-assets": "node scripts/sync-assets.mjs"
+    "sync-assets": "node scripts/sync-assets.mjs",
+    "generate-support-pages": "node scripts/generate-support-pages.mjs"
   },
   "devDependencies": {
     "vite": "^6.3.5"

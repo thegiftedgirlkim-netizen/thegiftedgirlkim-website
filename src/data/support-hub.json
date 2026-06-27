@@ -1,0 +1,245 @@
+{
+  "hub": {
+    "welcomeTitle": "Welcome to Support",
+    "welcomeLead": "This is the official help hub for every app published by The Gifted Girl Kim LLC. Find answers, privacy policies, and direct support for each app — all in one place.",
+    "contactIntro": "We're here to help. Email us with your app name, device model, and what you were trying to do — we'll get back to you as soon as we can.",
+    "generalFaqs": [
+      {
+        "question": "How do I get help with an app?",
+        "answer": "Open the app's support page below, or email thegiftedgirlkim@gmail.com with the app name, your device model, and iOS or Android version."
+      },
+      {
+        "question": "Where are the official privacy policies?",
+        "answer": "Each app has its own privacy policy on this website at thegiftedgirlkim.com/privacy/[app-name].html. These are the official store-ready links going forward."
+      },
+      {
+        "question": "Do your apps sell my personal information?",
+        "answer": "No. The Gifted Girl Kim LLC does not sell personal information. Many apps process data locally on your device. See each app's privacy policy for details."
+      },
+      {
+        "question": "How do I report a bug or request a feature?",
+        "answer": "Visit the individual app support page and use the Report a Bug or Feature Request buttons — they open a pre-filled email to our support team."
+      },
+      {
+        "question": "What if my app isn't listed yet?",
+        "answer": "New apps are added here as they launch. If you downloaded an app from the App Store or Google Play and don't see it listed, email us and we'll point you to the right resources."
+      }
+    ]
+  },
+  "terms": {
+    "effectiveDate": "June 27, 2026",
+    "intro": "These Terms & Conditions apply to apps and digital products published by The Gifted Girl Kim LLC. This page is a placeholder and will be expanded as our studio grows.",
+    "sections": [
+      {
+        "title": "Use of Our Apps",
+        "body": "Our apps are provided for personal, lawful use. You agree to use them responsibly and in accordance with applicable laws and app store terms."
+      },
+      {
+        "title": "No Warranty",
+        "body": "Apps are provided \"as is\" without warranties of any kind, to the fullest extent permitted by law. We work hard to build reliable tools, but we cannot guarantee uninterrupted or error-free operation."
+      },
+      {
+        "title": "Limitation of Liability",
+        "body": "To the fullest extent permitted by law, The Gifted Girl Kim LLC is not liable for indirect, incidental, or consequential damages arising from use of our apps or website."
+      },
+      {
+        "title": "App Store Purchases",
+        "body": "Purchases and subscriptions are processed by Apple or Google under their respective terms. Refund requests should be directed to the store where you purchased."
+      },
+      {
+        "title": "Changes",
+        "body": "We may update these terms from time to time. Continued use of our apps after changes constitutes acceptance of the updated terms."
+      },
+      {
+        "title": "Contact",
+        "body": "Questions about these terms? Email thegiftedgirlkim@gmail.com."
+      }
+    ]
+  },
+  "apps": {
+    "screenshot-goblin": {
+      "version": "1.0.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Screenshot Goblin accesses your photo library only to find and manage screenshots. Scan results and selections stay on your device. We do not collect, upload, or store your photos on our servers.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "No third-party analytics or advertising SDKs. App Store billing (when applicable) is handled by Apple.",
+      "knownIssues": ["Initial App Store release — check back for updates after launch."],
+      "plannedFeatures": ["Smart album suggestions", "Storage savings summary", "Batch cleanup improvements"],
+      "faqs": [
+        {
+          "question": "Does Screenshot Goblin upload my photos?",
+          "answer": "No. All scanning and review happens locally on your device. Nothing is uploaded to our servers."
+        },
+        {
+          "question": "Where do deleted screenshots go?",
+          "answer": "Deleted screenshots move to your device's Recently Deleted / Trash folder, where you can recover them before permanent removal."
+        }
+      ]
+    },
+    "digital-chapel": {
+      "version": "1.6.3",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "If you create an account, we may store account credentials and profile information needed for sign-in and community features. Scripture reading, prayer notes, and personal reflections may be stored locally and/or synced through our backend when you use connected features.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "May include Supabase (authentication and data sync), Apple App Store / Google Play billing, and text-to-speech or narration services when enabled. See in-app settings for current providers.",
+      "knownIssues": ["Some features require an internet connection.", "Subscription and billing help requires your store receipt."],
+      "plannedFeatures": ["Community safety improvements", "Expanded narration voices", "iPad layout refinements"],
+      "faqs": [
+        {
+          "question": "Do I need an internet connection?",
+          "answer": "Some features work offline; others — including account sign-in, sync, and community features — require internet access."
+        },
+        {
+          "question": "How do I manage my subscription?",
+          "answer": "Subscriptions are managed through the Apple App Store or Google Play. Include your store receipt when emailing support for billing help."
+        }
+      ]
+    },
+    "memory-friend": {
+      "version": "0.9.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Memory Friend is designed to store memories, reminders, and personal notes on your device. We do not collect personal content for advertising or resale.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "No third-party advertising. Future cloud backup (if added) will be disclosed in-app before use.",
+      "knownIssues": ["App is in packaging — features may change before public release."],
+      "plannedFeatures": ["Gentle reminder notifications", "Memory timeline view", "Accessibility improvements"],
+      "faqs": [
+        {
+          "question": "Is my data private?",
+          "answer": "Memory Friend is built for personal, private use. Your memories and reminders are intended to stay on your device unless a future feature clearly states otherwise."
+        }
+      ]
+    },
+    "meditation-journey-444": {
+      "version": "1.0.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Meditation Journey-444 does not require an account. Session preferences may be stored locally on your device. We do not collect personal meditation content.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "Apple App Store for purchases. No advertising SDKs.",
+      "knownIssues": ["If audio stops unexpectedly, force-close and reopen the app."],
+      "plannedFeatures": ["Additional guided sessions", "Background audio improvements", "Session history"],
+      "faqs": [
+        {
+          "question": "Audio won't play — what should I try?",
+          "answer": "Force-close the app and reopen. Check your device volume and whether you're on Wi‑Fi or cellular. Email support with your device model if the issue continues."
+        }
+      ]
+    },
+    "mappy-navigation": {
+      "version": "1.0.3",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Mappy Navigator uses location data to provide maps, routes, parking helpers, and journey spots. Location is used to power app features and is not sold to third parties.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "Map and place data providers, Apple App Store billing. Specific map providers may vary by platform and version.",
+      "knownIssues": ["Some route estimates are prototype-style — always verify real-world conditions before driving.", "Future traffic cards hidden until date/time selector is available."],
+      "plannedFeatures": ["Future date/time route planning", "Expanded scenic spot sharing", "Route weather cards"],
+      "faqs": [
+        {
+          "question": "Why does Mappy need my location?",
+          "answer": "Location permission powers map features, saved journey spots, parking helpers, and navigation. You can manage permissions in your device Settings."
+        }
+      ]
+    },
+    "afterlife-network": {
+      "version": "3.0.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Afterlife Network may store account information for community features. Sensor and session data used in-app is processed to provide spirit communication tools. We do not sell personal information.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "Backend services for community safety and account features. Apple App Store billing. See in-app privacy note for current providers.",
+      "knownIssues": ["Community features require internet access.", "Some tools are intended for entertainment purposes."],
+      "plannedFeatures": ["Multi-voice improvements", "Enhanced community safety controls", "Session recording options"],
+      "faqs": [
+        {
+          "question": "Is Afterlife Network for entertainment?",
+          "answer": "Yes — spirit communication tools are provided for entertainment and exploration. Community safety controls are built into the experience."
+        }
+      ]
+    },
+    "socialnature": {
+      "version": "1.0.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "SocialNature may store progress and preferences locally or through connected features. We do not sell personal information or use advertising trackers.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "Apple App Store billing. Backend services may be used for content delivery — disclosed in-app when active.",
+      "knownIssues": ["Include screenshots when reporting crashes or content issues."],
+      "plannedFeatures": ["More nature discovery paths", "Traveler the Turtle adventures", "Share-and-learn features"],
+      "faqs": [
+        {
+          "question": "Who is Traveler the Turtle?",
+          "answer": "Traveler is the friendly guide in SocialNature — helping you explore and learn about the natural world."
+        }
+      ]
+    },
+    "dream-board": {
+      "version": "1.0.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Dream Board stores vision boards, journal entries, doodles, and goals on your device. We do not upload your creative content to our servers.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "None for core features. Archived builds may vary.",
+      "knownIssues": ["This app is archived — some builds may no longer receive updates."],
+      "plannedFeatures": ["Cloud backup (if revived)", "Export and print options"],
+      "faqs": [
+        {
+          "question": "Is Dream Board still supported?",
+          "answer": "Dream Board is archived. We still welcome feedback if you're using a legacy build — include the version from Settings in your email."
+        }
+      ]
+    },
+    "mobile-eyes": {
+      "version": "0.5.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Mobile Eyes is a caregiver safety prototype. Location and alert features may use device permissions when enabled. Data is used only to provide safety features — not for advertising.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "Backend services may be limited during development. Location services use platform APIs.",
+      "knownIssues": ["Prototype — backend features may be limited.", "Not intended as a substitute for emergency services."],
+      "plannedFeatures": ["Caregiver alert improvements", "Family circle sharing", "Accessibility enhancements"],
+      "faqs": [
+        {
+          "question": "Is Mobile Eyes a medical or emergency service?",
+          "answer": "No. Mobile Eyes is a companion prototype for families. Always call emergency services (911) for emergencies."
+        }
+      ]
+    },
+    "gem-and-me": {
+      "version": "0.3.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Gem & Me may store conversation context locally on your device to continue chats. We do not sell conversation data. If AI features connect to external services, that use is disclosed in-app.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "AI or language services may be added in future versions — disclosed before activation.",
+      "knownIssues": ["Early prototype — features and responses may change frequently."],
+      "plannedFeatures": ["Gentle daily check-ins", "Tiny planning tools", "Offline-first improvements"],
+      "faqs": [
+        {
+          "question": "Does Gem & Me share my conversations?",
+          "answer": "Gem & Me is designed as a private companion. Conversations are intended to stay on your device unless a future cloud feature clearly discloses otherwise."
+        }
+      ]
+    },
+    "snow-patrol": {
+      "version": "0.8.0",
+      "lastUpdated": "June 2026",
+      "effectiveDate": "June 27, 2026",
+      "dataCollected": "Snow Patrol stores game progress locally on your device. We do not collect personal information for advertising.",
+      "onDeviceOnly": true,
+      "thirdPartyServices": "Apple App Store / Google Play when published. No advertising SDKs.",
+      "knownIssues": ["In active development — gameplay and performance may vary by device."],
+      "plannedFeatures": ["More Snow adventures", "Story chapter expansions", "Performance optimizations"],
+      "faqs": [
+        {
+          "question": "Who is Snow?",
+          "answer": "Snow is Kimberly's Siberian Husky and the heart of Snow Patrol — a playful, heartfelt adventure inspired by real life."
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,8 @@
-import { resolve } from 'node:path';
+import { resolve, join } from 'node:path';
+import { readdirSync, existsSync } from 'node:fs';
 import { defineConfig } from 'vite';
 
-const pages = [
+const rootPages = [
   'index',
   'apps',
   'books',
@@ -9,8 +10,26 @@ const pages = [
   'about',
   'support',
   'privacy',
+  'terms',
   'contact',
   '404'
+];
+
+function collectGeneratedPages(dir, prefix) {
+  const fullDir = join(__dirname, dir);
+  if (!existsSync(fullDir)) return [];
+  return readdirSync(fullDir)
+    .filter(name => name.endsWith('.html') && !name.startsWith('._'))
+    .map(name => {
+      const slug = name.replace('.html', '');
+      return [`${prefix}-${slug}`, resolve(fullDir, name)];
+    });
+}
+
+const pages = [
+  ...rootPages.map(name => [name, resolve(__dirname, `${name}.html`)]),
+  ...collectGeneratedPages('support', 'support'),
+  ...collectGeneratedPages('privacy', 'privacy')
 ];
 
 export default defineConfig({
@@ -20,9 +39,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: Object.fromEntries(
-        pages.map(name => [name, resolve(__dirname, `${name}.html`)])
-      )
+      input: Object.fromEntries(pages)
     }
   }
 });
