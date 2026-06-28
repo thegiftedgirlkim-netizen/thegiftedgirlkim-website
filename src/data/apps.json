@@ -93,10 +93,10 @@
       "icon": "/assets/apps/memory-friend.png",
       "iconSource": "Kimberly_App_Studio/Archives/Interrupted Partial Copies/WidgetMe_partial_20260624_201612/assets/brand-universe/memory-friend.png",
       "category": "Lifestyle",
-      "status": "Packaging",
+      "status": "Resubmitting to Apple",
       "featured": true,
       "order": 6,
-      "links": { "ios": "", "android": "", "support": "/support/memory-friend.html", "privacy": "/privacy/memory-friend.html" }
+      "links": { "ios": "", "android": "", "support": "/support/memory-friend.html", "privacy": "/privacy/memory-friend.html", "marketing": "/marketing/memory-friend.html" }
     },
     {
       "id": "socialnature",

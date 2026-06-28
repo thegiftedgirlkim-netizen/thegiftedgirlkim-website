@@ -2,6 +2,7 @@ node_modules/
 dist/
 support/
 privacy/
+marketing/
 .DS_Store
 ._*
 *.log

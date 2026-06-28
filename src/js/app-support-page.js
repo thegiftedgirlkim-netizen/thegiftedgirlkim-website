@@ -100,6 +100,7 @@ function mountAppSupport() {
             <nav class="support-sidebar-nav">
               <a href="/support.html">← Support Home</a>
               <a href="${app.privacyUrl}">Privacy Policy</a>
+              <a href="${app.marketingUrl}">App Overview</a>
               <a href="/apps.html#${app.id}">View on Apps Page</a>
               ${app.links?.ios ? `<a href="${app.links.ios}" target="_blank" rel="noopener noreferrer">App Store →</a>` : ''}
             </nav>

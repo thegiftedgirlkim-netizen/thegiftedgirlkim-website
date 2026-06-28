@@ -98,18 +98,58 @@
       ]
     },
     "memory-friend": {
-      "version": "0.9.0",
+      "version": "1.0.2",
       "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "Memory Friend is designed to store memories, reminders, and personal notes on your device. We do not collect personal content for advertising or resale.",
+      "effectiveDate": "June 28, 2026",
+      "dataCollected": "Memory Friend stores journal entries, optional photo memories, optional voice recordings, routine progress, family connection details you enter, and app preferences on your device. We do not collect this content for advertising or resale.",
       "onDeviceOnly": true,
-      "thirdPartyServices": "No third-party advertising. Future cloud backup (if added) will be disclosed in-app before use.",
-      "knownIssues": ["App is in packaging — features may change before public release."],
+      "thirdPartyServices": "No third-party advertising. Speak Instead uses Apple’s on-device speech recognition when you tap the button — your spoken words are processed to fill your memory text and are not sold. Future cloud backup (if added) will be disclosed in-app before use.",
+      "marketing": {
+        "headline": "A Gentle Place for Memories, Routines, and Connection",
+        "intro": [
+          "Memory Friend is a warm mobile app for saving meaningful moments, recording voice memories, adding photo memories, and keeping simple daily routines close.",
+          "Guided by a friendly lightbulb companion, Memory Friend is designed to feel calm, kind, and easy to use — especially for people who prefer speaking instead of typing."
+        ],
+        "features": [
+          "Save personal memory journal entries — type or use Speak Instead",
+          "Record voice memories",
+          "Add treasured photo memories",
+          "Track daily routines",
+          "Keep family connection notes",
+          "Simple local privacy and support tools"
+        ],
+        "builtFor": "Memory Friend is not meant to feel complicated or clinical. It is a soft place to remember little moments, preserve familiar details, and create a comforting routine. Whether you want to save a story, remember a name, keep a daily checklist, or hold onto a voice note, Memory Friend gives you one simple place to begin.",
+        "price": "$0.99",
+        "disclaimer": "Memory Friend is a personal memory and routine helper. It is not medical care, diagnosis, treatment, monitoring, or an emergency service. If there is an emergency, call local emergency services or contact a trusted caregiver immediately."
+      },
+      "extraSections": [
+        {
+          "title": "Photos, Camera, Microphone, and Speak Instead",
+          "body": "Memory Friend may request access to your camera, photo library, or microphone only when you choose features such as photo memories, voice memories, or Speak Instead dictation. These items are for personal memory keeping inside the app. We do not sell your photos, recordings, journal entries, or family information."
+        },
+        {
+          "title": "Local Storage and Cloud Sync",
+          "body": "Memory Friend currently saves memory content on your device unless a future cloud-sync feature is clearly added and enabled. If you uninstall the app or clear local app data, locally stored content may be deleted from that device."
+        },
+        {
+          "title": "Health and Medical Disclaimer",
+          "body": "Memory Friend is a personal memory and routine helper. It is not medical care, diagnosis, treatment, monitoring, dementia screening, cognitive assessment, therapy, emergency response, or professional caregiving. If there is an emergency, call local emergency services or contact a trusted caregiver immediately."
+        },
+        {
+          "title": "Data Deletion",
+          "body": "You can delete app data by using in-app reset options where available, clearing the app’s stored data in device Settings, or uninstalling the app. For privacy questions or deletion help, email thegiftedgirlkim@gmail.com."
+        }
+      ],
+      "knownIssues": [],
       "plannedFeatures": ["Gentle reminder notifications", "Memory timeline view", "Accessibility improvements"],
       "faqs": [
         {
           "question": "Is my data private?",
           "answer": "Memory Friend is built for personal, private use. Your memories and reminders are intended to stay on your device unless a future feature clearly states otherwise."
+        },
+        {
+          "question": "How does Speak Instead work?",
+          "answer": "When you tap Speak Instead, Memory Friend uses your device microphone and Apple speech recognition to turn your words into text in your memory entry. You can edit the text before saving. Speech is optional — you can always type instead."
         }
       ]
     },

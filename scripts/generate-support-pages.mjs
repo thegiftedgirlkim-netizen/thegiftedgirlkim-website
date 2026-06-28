@@ -52,15 +52,19 @@ function ogBlock({ title, description, url, image = `${siteUrl}/assets/brand/com
 async function main() {
   const supportDir = join(root, 'support');
   const privacyDir = join(root, 'privacy');
+  const marketingDir = join(root, 'marketing');
 
   await rm(supportDir, { recursive: true, force: true });
   await rm(privacyDir, { recursive: true, force: true });
+  await rm(marketingDir, { recursive: true, force: true });
   await mkdir(supportDir, { recursive: true });
   await mkdir(privacyDir, { recursive: true });
+  await mkdir(marketingDir, { recursive: true });
 
   for (const app of apps) {
     const supportUrl = `${siteUrl}/support/${app.id}.html`;
     const privacyUrl = `${siteUrl}/privacy/${app.id}.html`;
+    const marketingUrl = `${siteUrl}/marketing/${app.id}.html`;
     const ogImage = app.icon ? `${siteUrl}${app.icon}` : `${siteUrl}/assets/brand/company-logo.jpeg`;
 
     const supportHtml = `${HEAD.replace('</head>', `${ogBlock({
@@ -91,10 +95,25 @@ ${TAIL('/src/js/app-privacy-page.js')}`;
 
     await writeFile(join(supportDir, `${app.id}.html`), supportHtml);
     await writeFile(join(privacyDir, `${app.id}.html`), privacyHtml);
-    console.log('OK', `support/${app.id}.html`, `privacy/${app.id}.html`);
+
+    const marketingHtml = `${HEAD.replace('</head>', `${ogBlock({
+      title: `${app.name} — ${site.company}`,
+      description: `${app.tagline} Learn about ${app.name}, features, pricing, and support from ${site.company}.`,
+      url: marketingUrl,
+      image: ogImage
+    })}
+</head>`)}
+<body class="page-shell" data-app-id="${app.id}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-site-header></div>
+  <main id="main" class="page-main" data-app-marketing></main>
+${TAIL('/src/js/app-marketing-page.js')}`;
+
+    await writeFile(join(marketingDir, `${app.id}.html`), marketingHtml);
+    console.log('OK', `support/${app.id}.html`, `privacy/${app.id}.html`, `marketing/${app.id}.html`);
   }
 
-  console.log(`Generated ${apps.length} app support pages and ${apps.length} privacy pages.`);
+  console.log(`Generated ${apps.length} app support pages, ${apps.length} privacy pages, and ${apps.length} marketing pages.`);
 
   const staticPages = [
     ['/', 'weekly', '1.0'],
@@ -110,7 +129,8 @@ ${TAIL('/src/js/app-privacy-page.js')}`;
 
   const appPages = apps.flatMap(app => [
     [`/support/${app.id}.html`, 'monthly', '0.7'],
-    [`/privacy/${app.id}.html`, 'monthly', '0.7']
+    [`/privacy/${app.id}.html`, 'monthly', '0.7'],
+    [`/marketing/${app.id}.html`, 'monthly', '0.7']
   ]);
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

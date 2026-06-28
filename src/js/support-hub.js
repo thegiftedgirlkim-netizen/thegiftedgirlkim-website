@@ -20,7 +20,8 @@ export function getSupportApp(id) {
     ...app,
     ...meta,
     supportUrl: `/support/${id}.html`,
-    privacyUrl: `/privacy/${id}.html`
+    privacyUrl: `/privacy/${id}.html`,
+    marketingUrl: `/marketing/${id}.html`
   };
 }
 

@@ -37,6 +37,11 @@ function mountAppPrivacy() {
         <h2>What Data Is Collected</h2>
         <p>${app.dataCollected || 'We minimize data collection. See the app description and in-app privacy notes for current behavior.'}</p>
 
+        ${(app.extraSections || []).map(section => `
+        <h2>${section.title}</h2>
+        <p>${section.body}</p>
+        `).join('')}
+
         <h2>On-Device Processing</h2>
         <p>${onDeviceText}</p>
 
@@ -57,6 +62,7 @@ function mountAppPrivacy() {
 
         <div class="hero__actions support-privacy-actions">
           <a href="/support/${app.id}.html" class="btn btn-primary">${app.name} Support →</a>
+          <a href="/marketing/${app.id}.html" class="btn btn-secondary">App Overview</a>
           <a href="/support.html" class="btn btn-secondary">Support Home</a>
           <a href="/privacy.html" class="btn btn-secondary">Website Privacy</a>
         </div>

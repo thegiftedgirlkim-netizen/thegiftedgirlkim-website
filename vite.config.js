@@ -29,7 +29,8 @@ function collectGeneratedPages(dir, prefix) {
 const pages = [
   ...rootPages.map(name => [name, resolve(__dirname, `${name}.html`)]),
   ...collectGeneratedPages('support', 'support'),
-  ...collectGeneratedPages('privacy', 'privacy')
+  ...collectGeneratedPages('privacy', 'privacy'),
+  ...collectGeneratedPages('marketing', 'marketing')
 ];
 
 export default defineConfig({
