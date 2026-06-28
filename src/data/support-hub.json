@@ -248,9 +248,13 @@
       "dataCollected": "Widget Guru Studio stores favorites and widget configuration locally on your device. When you save a wallpaper, the image is written to your photo library with your permission. We do not collect, upload, or sell personal information.",
       "onDeviceOnly": true,
       "thirdPartyServices": "No third-party analytics or advertising SDKs. Apple App Store / Google Play billing when applicable.",
-      "knownIssues": ["Home screen widgets require platform-specific setup — follow in-app Guru Tips.", "Some theme packs are decorative previews that may expand in future updates."],
-      "plannedFeatures": ["More widget styles", "Expanded wallpaper collections", "Deeper theme customization"],
+      "knownIssues": ["Home screen widgets require platform-specific setup — follow in-app Guru Tips.", "Wallpaper styles include both photo backgrounds and curated color gradients."],
+      "plannedFeatures": ["New wallpaper collections in future updates", "Additional widget styles", "Seasonal theme packs", "Expanded quote categories"],
       "faqs": [
+        {
+          "question": "How much content is in Version 1.0?",
+          "answer": "Version 1.0 includes 34 wallpaper styles, 21 widget styles, 12 theme packs, and 30 inspirational quote cards, plus Guru Tips and favorites. This is the start of a growing library — more content will be added in future updates."
+        },
         {
           "question": "Does Widget Guru Studio upload my favorites?",
           "answer": "No. Favorites and widget configs stay on your device. Nothing is uploaded to our servers."
