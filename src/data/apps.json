@@ -120,15 +120,21 @@
     {
       "id": "dream-board",
       "name": "Dream Board",
-      "tagline": "Vision boards for your next chapter.",
-      "description": "A personal vision board, dream journal, doodle pad, and goal tracker — designed to help you dream boldly and follow through.",
+      "tagline": "Dream boldly with Dreamy the Cloud.",
+      "description": "A personal vision board, dream journal, doodle pad, and goal tracker — designed to help you dream boldly and follow through, all on your device.",
       "icon": "/assets/apps/dream-board.png",
       "iconSource": "Kimberly_App_Studio/Archives/Moved Folder Archives/Dream_Board_FULL_ARCHIVE_20260624_201612.zip → Dream Board/App Icon.png",
       "category": "Creativity",
-      "status": "Archived",
+      "status": "Preparing for App Store",
       "featured": false,
       "order": 8,
-      "links": { "ios": "", "android": "", "support": "/support/dream-board.html", "privacy": "/privacy/dream-board.html" }
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/dream-board.html",
+        "privacy": "/privacy/dream-board.html",
+        "marketing": "/marketing/dream-board.html"
+      }
     },
     {
       "id": "mobile-eyes",

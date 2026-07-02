@@ -218,18 +218,57 @@
       ]
     },
     "dream-board": {
-      "version": "1.0.0",
-      "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "Dream Board stores vision boards, journal entries, doodles, and goals on your device. We do not upload your creative content to our servers.",
+      "version": "1.0",
+      "lastUpdated": "July 2026",
+      "effectiveDate": "July 2, 2026",
+      "dataCollected": "Dream Board stores vision boards, journal entries, doodles, goals, vault items, and app preferences locally on your device. We do not upload your creative content to our servers or sell personal information.",
       "onDeviceOnly": true,
-      "thirdPartyServices": "None for core features. Archived builds may vary.",
-      "knownIssues": ["This app is archived — some builds may no longer receive updates."],
-      "plannedFeatures": ["Cloud backup (if revived)", "Export and print options"],
+      "thirdPartyServices": "No third-party advertising or analytics SDKs. Apple App Store and Google Play process purchases under their own privacy policies when applicable. Photo library access is used only when you choose to add images.",
+      "marketing": {
+        "headline": "Dream boldly. Plan gently. Create with Dreamy.",
+        "intro": [
+          "Dream Board is a personal vision board, dream journal, doodle pad, and goal tracker — designed to help you dream boldly and follow through, guided by Dreamy the Cloud.",
+          "Build boards for travel, home, career, and life goals. Write journal entries, save doodles, track progress, and keep inspiration in your Dream Vault — all in one peaceful place on your device."
+        ],
+        "features": [
+          "Vision boards with categories and inspiration items",
+          "Dream journal for daily reflection",
+          "Doodle Dreams drawing pad with saved drawings",
+          "Dream Tracker for goals and milestones",
+          "Dream Vault for photos, notes, and favorites",
+          "Export and import JSON backups from Settings",
+          "Private on-device storage — no account required"
+        ],
+        "builtFor": "Dream Board is built for gentle everyday dreaming. It is calm, creative, and private — a soft companion for planning your next chapter without pressure or clutter."
+      },
+      "extraSections": [
+        {
+          "title": "Photos and Photo Library",
+          "body": "Dream Board may request access to your photo library only when you choose to add images to vision boards or the Dream Vault. Images you add stay on your device as part of your personal content. We do not sell your photos."
+        },
+        {
+          "title": "Backups and Data Deletion",
+          "body": "You can export a JSON backup from Settings at any time. You can delete all app data using Settings → Clear All Data, by clearing the app’s stored data in device Settings, or by uninstalling the app. For privacy questions or deletion help, email thegiftedgirlkim@gmail.com."
+        }
+      ],
+      "knownIssues": [],
+      "plannedFeatures": ["Cloud backup option in a future update", "Print and share vision board layouts", "More Dreamy encouragement prompts"],
       "faqs": [
         {
-          "question": "Is Dream Board still supported?",
-          "answer": "Dream Board is archived. We still welcome feedback if you're using a legacy build — include the version from Settings in your email."
+          "question": "Is my dream journal private?",
+          "answer": "Yes. Your journals, boards, doodles, goals, and vault items stay on your device. We do not upload them to our servers."
+        },
+        {
+          "question": "How do I back up my dreams?",
+          "answer": "Open Settings → Export Backup. You can save the JSON file to Files, email it to yourself, or re-import it later on the same or a new device."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email thegiftedgirlkim@gmail.com with your app version and device type (iPhone or Android). We're happy to help."
+        },
+        {
+          "question": "How do I leave a review?",
+          "answer": "Once Dream Board is live on the App Store or Google Play, open Settings → Leave a Review in the app, or find Dream Board on the store and tap Rate & Review. Thank you for supporting indie apps!"
         }
       ]
     },
