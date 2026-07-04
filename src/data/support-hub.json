@@ -238,24 +238,68 @@
           "body": "To request account deletion or removal of your content, email thegiftedgirlkim@gmail.com from the address tied to your account. We will process reasonable deletion requests in a timely manner. Uninstalling the app does not automatically delete cloud-stored account data."
         }
       ],
-      "knownIssues": ["Email thegiftedgirlkim@gmail.com when reporting content or account issues."],
-      "plannedFeatures": ["More Traveler adventures", "Expanded collections", "Community improvements"],
+      "knownIssues": [
+        "First launch may ask for camera, photo, or location permission when you use those features — only needed for sharing or pins.",
+        "AI Nature Lens requires an internet connection and sends the photo you choose for identification.",
+        "If comments or video upload fail, the app backend may need a one-time update — email us and we will help."
+      ],
+      "plannedFeatures": [
+        "More Traveler story moments",
+        "Expanded species collections",
+        "Richer community discovery tools"
+      ],
+      "marketing": {
+        "headline": "Discover nature. Share wonder. Meet Traveler the Turtle.",
+        "intro": [
+          "SocialNature is a friendly wildlife community for explorers of all ages. Snap what you find outside, learn what it is, and share it with people who love nature too.",
+          "Traveler the Turtle guides you through discovery feeds, collection goals, the Nature Race between states, and optional map pins — with a calm, encouraging tone and no ads."
+        ],
+        "features": [
+          "Live discovery feed from the SocialNature community",
+          "Share wildlife photos and videos from camera or gallery",
+          "Comments on discoveries — connect with other explorers",
+          "AI Nature Lens — identify breeds, species, flowers, and more from your photo",
+          "Discovery pins with optional approximate or exact location",
+          "Nature Race — friendly state-vs-state discovery competition",
+          "Collections — track birds, butterflies, flowers, wildlife, trees, and mushrooms",
+          "Report button on posts for content safety",
+          "Free to download — create an account to post and comment"
+        ],
+        "builtFor": "SocialNature is built for curious walkers, backyard naturalists, families, and anyone who notices something beautiful outside and wants to name it, save it, and share it — gently, without clutter or pressure.",
+        "price": "Free"
+      },
       "faqs": [
         {
           "question": "Who is Traveler the Turtle?",
-          "answer": "Traveler is the friendly guide in SocialNature — helping you explore, share, and learn about the natural world."
+          "answer": "Traveler is the friendly guide in SocialNature — a rescued turtle with a big heart for wildlife. He cheers you on as you explore, share, and learn."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "You can browse the feed and try AI Nature Lens without signing in. Create a free account to post discoveries, comment, like, and upload photos or videos."
+        },
+        {
+          "question": "How does AI Nature Lens work?",
+          "answer": "Open the Lens tab, take or choose a photo, and Traveler suggests a species or breed name plus a fun fact. The image you submit is processed by our AI provider to generate the result."
+        },
+        {
+          "question": "How do I report inappropriate content?",
+          "answer": "Tap Report on any discovery in the feed, or email thegiftedgirlkim@gmail.com with the subject SocialNature Content Report. We review reports as quickly as we can."
         },
         {
           "question": "Do you sell my photos or email?",
           "answer": "No. We do not sell personal information. Photos and posts are used to run the community features you choose to use."
         },
         {
-          "question": "Can I use the app without an account?",
-          "answer": "Yes. You can browse the feed and try AI Nature Lens without signing in. An account is needed to post, comment, and upload."
+          "question": "How do I delete my account or data?",
+          "answer": "Email thegiftedgirlkim@gmail.com from the address tied to your account with a deletion request. We will help you as soon as we can."
         },
         {
-          "question": "How do I delete my account or data?",
-          "answer": "Email thegiftedgirlkim@gmail.com with your account email and a deletion request. We will help you as soon as we can."
+          "question": "How do I contact support?",
+          "answer": "Email thegiftedgirlkim@gmail.com with SocialNature in the subject line, your device type (iPhone or Android), and app version 1.1.0. Screenshots help us fix bugs faster."
+        },
+        {
+          "question": "How do I leave a review?",
+          "answer": "Open SocialNature on the App Store or Google Play and tap Rate & Review. Thank you for supporting indie apps — Traveler appreciates it!"
         }
       ]
     },
