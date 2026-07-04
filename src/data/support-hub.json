@@ -202,18 +202,60 @@
       ]
     },
     "socialnature": {
-      "version": "1.0.0",
-      "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "SocialNature may store progress and preferences locally or through connected features. We do not sell personal information or use advertising trackers.",
+      "version": "1.1.0",
+      "lastUpdated": "July 2026",
+      "effectiveDate": "July 4, 2026",
+      "dataCollected": "SocialNature collects information you choose to provide when you create an account and use community features: email address, username, display name, wildlife photos, videos, discovery posts, comments, optional location for pins, and content reports. We use this data to run the app — feed, sharing, comments, Nature Race, collections, and moderation. We do not sell personal information and we do not use advertising trackers.",
       "onDeviceOnly": false,
-      "thirdPartyServices": "Apple App Store billing. Backend services may be used for content delivery — disclosed in-app when active.",
-      "knownIssues": ["Include screenshots when reporting crashes or content issues."],
-      "plannedFeatures": ["More nature discovery paths", "Traveler the Turtle adventures", "Share-and-learn features"],
+      "thirdPartyServices": "Account data, discoveries, photos, videos, and comments are stored with Supabase (secure cloud database and file storage). AI Nature Lens sends the photo you choose to Groq's vision API to suggest species or breed names; only that image is sent when you use Lens — not your whole photo library. Apple App Store and Google Play process downloads under their own privacy policies. No advertising SDKs.",
+      "extraSections": [
+        {
+          "title": "Account & Sign-In",
+          "body": "Creating an account requires an email address, password, and username. You can browse the discovery feed and use AI Nature Lens without signing in. Posting discoveries, commenting, liking, and uploading photos or videos requires an account. You may sign out at any time from the app."
+        },
+        {
+          "title": "Photos, Videos & Community Content",
+          "body": "When you share a discovery, you may upload photos or videos, write titles and descriptions, and choose a category. Comments you post are visible to other users on that discovery. Please do not post private home addresses, phone numbers, or other sensitive personal information. Other users can view content you share publicly in the feed."
+        },
+        {
+          "title": "Location",
+          "body": "Location is optional. If you add a discovery pin or share a find with location, you can choose approximate location (~1 km), exact GPS coordinates, or no coordinates (text only). Location is used for map pins, Nature Race, and nearby discovery features — only when you choose to include it."
+        },
+        {
+          "title": "AI Nature Lens",
+          "body": "When you tap AI Nature Lens and submit a photo, that image is sent to Groq for automated identification (for example breed or species suggestions). Do not submit photos you do not want processed by our AI provider. Results are shown to you in the app; we do not use Lens photos for advertising."
+        },
+        {
+          "title": "Reports & Safety",
+          "body": "You can report discoveries that feel inappropriate, spam, harassment, or misleading. Reports are reviewed by the developer. Email thegiftedgirlkim@gmail.com for urgent content concerns."
+        },
+        {
+          "title": "Camera, Photos & Device Permissions",
+          "body": "The app may request camera access to take wildlife photos, photo library access to pick images or videos to share, and location access when you add pins or location-based features. Permissions are used only when you tap those features — not in the background for unrelated purposes."
+        },
+        {
+          "title": "Data Retention & Deletion",
+          "body": "To request account deletion or removal of your content, email thegiftedgirlkim@gmail.com from the address tied to your account. We will process reasonable deletion requests in a timely manner. Uninstalling the app does not automatically delete cloud-stored account data."
+        }
+      ],
+      "knownIssues": ["Email thegiftedgirlkim@gmail.com when reporting content or account issues."],
+      "plannedFeatures": ["More Traveler adventures", "Expanded collections", "Community improvements"],
       "faqs": [
         {
           "question": "Who is Traveler the Turtle?",
-          "answer": "Traveler is the friendly guide in SocialNature — helping you explore and learn about the natural world."
+          "answer": "Traveler is the friendly guide in SocialNature — helping you explore, share, and learn about the natural world."
+        },
+        {
+          "question": "Do you sell my photos or email?",
+          "answer": "No. We do not sell personal information. Photos and posts are used to run the community features you choose to use."
+        },
+        {
+          "question": "Can I use the app without an account?",
+          "answer": "Yes. You can browse the feed and try AI Nature Lens without signing in. An account is needed to post, comment, and upload."
+        },
+        {
+          "question": "How do I delete my account or data?",
+          "answer": "Email thegiftedgirlkim@gmail.com with your account email and a deletion request. We will help you as soon as we can."
         }
       ]
     },
@@ -221,13 +263,13 @@
       "version": "1.0",
       "lastUpdated": "July 2026",
       "effectiveDate": "July 2, 2026",
-      "dataCollected": "Dream Board stores vision boards, journal entries, doodles, goals, vault items, and app preferences locally on your device. We do not upload your creative content to our servers or sell personal information.",
+      "dataCollected": "Dreamy Board stores vision boards, journal entries, doodles, goals, vault items, and app preferences locally on your device. We do not upload your creative content to our servers or sell personal information.",
       "onDeviceOnly": true,
       "thirdPartyServices": "No third-party advertising or analytics SDKs. Apple App Store and Google Play process purchases under their own privacy policies when applicable. Photo library access is used only when you choose to add images.",
       "marketing": {
         "headline": "Dream boldly. Plan gently. Create with Dreamy.",
         "intro": [
-          "Dream Board is a personal vision board, dream journal, doodle pad, and goal tracker — designed to help you dream boldly and follow through, guided by Dreamy the Cloud.",
+          "Dreamy Board is a personal vision board, dream journal, doodle pad, and goal tracker — designed to help you dream boldly and follow through, guided by Dreamy the Cloud.",
           "Build boards for travel, home, career, and life goals. Write journal entries, save doodles, track progress, and keep inspiration in your Dream Vault — all in one peaceful place on your device."
         ],
         "features": [
@@ -239,12 +281,12 @@
           "Export and import JSON backups from Settings",
           "Private on-device storage — no account required"
         ],
-        "builtFor": "Dream Board is built for gentle everyday dreaming. It is calm, creative, and private — a soft companion for planning your next chapter without pressure or clutter."
+        "builtFor": "Dreamy Board is built for gentle everyday dreaming. It is calm, creative, and private — a soft companion for planning your next chapter without pressure or clutter."
       },
       "extraSections": [
         {
           "title": "Photos and Photo Library",
-          "body": "Dream Board may request access to your photo library only when you choose to add images to vision boards or the Dream Vault. Images you add stay on your device as part of your personal content. We do not sell your photos."
+          "body": "Dreamy Board may request access to your photo library only when you choose to add images to vision boards or the Dream Vault. Images you add stay on your device as part of your personal content. We do not sell your photos."
         },
         {
           "title": "Backups and Data Deletion",
@@ -268,7 +310,7 @@
         },
         {
           "question": "How do I leave a review?",
-          "answer": "Once Dream Board is live on the App Store or Google Play, open Settings → Leave a Review in the app, or find Dream Board on the store and tap Rate & Review. Thank you for supporting indie apps!"
+          "answer": "Once Dreamy Board is live on the App Store or Google Play, open Settings → Leave a Review in the app, or find Dreamy Board on the store and tap Rate & Review. Thank you for supporting indie apps!"
         }
       ]
     },
@@ -290,17 +332,35 @@
     },
     "gem-and-me": {
       "version": "0.3.0",
-      "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "Gem & Me may store conversation context locally on your device to continue chats. We do not sell conversation data. If AI features connect to external services, that use is disclosed in-app.",
-      "onDeviceOnly": true,
-      "thirdPartyServices": "AI or language services may be added in future versions — disclosed before activation.",
-      "knownIssues": ["Early prototype — features and responses may change frequently."],
-      "plannedFeatures": ["Gentle daily check-ins", "Tiny planning tools", "Offline-first improvements"],
+      "lastUpdated": "July 2026",
+      "effectiveDate": "July 3, 2026",
+      "dataCollected": "Gem & Me stores progress locally on your device: XP, streaks, life quests, trivia scores, achievements, and recent chat history. No account is required. When you use AI chat, the messages you send are transmitted to our AI provider (Groq) to generate Gem's replies. Free users have a daily AI message limit.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "AI chat is powered by Groq (llama-3.1-8b-instant on the free tier). Groq processes chat text under their privacy policy. Apple App Store / Google Play handle billing when subscriptions are offered in the future. No advertising SDKs.",
+      "extraSections": [
+        {
+          "title": "AI Chat & Daily Limits",
+          "body": "Chat with Gem sends your message text to Groq's API. Please avoid sharing passwords or highly sensitive personal information. Free users receive 15 AI messages per day; trivia, quests, battles, and other features remain available without that limit. Offline mode uses scripted replies only — nothing is sent online."
+        },
+        {
+          "title": "Data Stored On Your Device",
+          "body": "Level, XP, streak, quest checkmarks, trivia stats, battle wins, and recent chat bubbles are saved in your device's local storage. You can clear this by removing the app or clearing app data on your device."
+        }
+      ],
+      "knownIssues": ["Android test builds are installed via APK sideload until Play Store launch.", "Store review links activate after App Store / Google Play publication."],
+      "plannedFeatures": ["More trivia categories", "Expanded companion features", "Optional premium tier with higher AI limits"],
       "faqs": [
         {
           "question": "Does Gem & Me share my conversations?",
-          "answer": "Gem & Me is designed as a private companion. Conversations are intended to stay on your device unless a future cloud feature clearly discloses otherwise."
+          "answer": "We do not sell your chats. AI messages are sent to Groq only to generate replies. Progress and trivia data stay on your device unless a future feature clearly discloses cloud sync."
+        },
+        {
+          "question": "Why is there a daily chat limit?",
+          "answer": "The free tier includes 15 AI messages per day so Gem stays sustainable while the app is free to download. Trivia Arena, Life Quests, Gem vs Me, and other areas are not limited the same way."
+        },
+        {
+          "question": "How do I leave a review?",
+          "answer": "Once Gem & Me is on the App Store or Google Play, use the review option in the app Profile. Until then, email us — we love hearing what you think!"
         }
       ]
     },
