@@ -102,11 +102,11 @@
       "id": "socialnature",
       "name": "SocialNature",
       "tagline": "Discover nature. Share wonder.",
-      "description": "An immersive nature discovery app featuring Traveler the Turtle — explore, learn, and share the wonder of the natural world.",
+      "description": "SocialNature is a wildlife discovery community guided by Traveler the Turtle. Browse real discoveries, share photos and videos, comment with other explorers, identify species with AI Nature Lens, join the Nature Race, and build your collections.",
       "icon": "/assets/apps/socialnature.png",
       "iconSource": "App Store (id6782241664) — official marketing icon",
       "category": "Education",
-      "status": "Live on Apple",
+      "status": "Live on Apple & Google Play",
       "featured": false,
       "order": 7,
       "iosAppId": "6782241664",
@@ -114,7 +114,8 @@
         "ios": "https://apps.apple.com/app/id6782241664",
         "android": "",
         "support": "/support/socialnature.html",
-        "privacy": "/privacy/socialnature.html"
+        "privacy": "/privacy/socialnature.html",
+        "marketing": "/marketing/socialnature.html"
       }
     },
     {
