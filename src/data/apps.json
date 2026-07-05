@@ -4,15 +4,20 @@
       "id": "screenshot-goblin",
       "name": "Screenshot Goblin",
       "tagline": "Gobbling screenshots. Saving storage.",
-      "description": "Find, review, organize, and remove forgotten screenshots — all on your device, with privacy built in.",
+      "description": "Find, review, organize, and remove forgotten screenshots \u2014 all on your device, with privacy built in.",
       "icon": "/assets/apps/screenshot-goblin.png",
       "iconSource": "Kimberly_App_Studio/Apps/Screenshot Goblin/public/assets/mascot/app-icon-1024.png",
       "category": "Utilities",
       "status": "Coming Soon on Apple",
-      "featured": true,
-      "order": 1,
+      "featured": false,
+      "order": 20,
       "iosAppId": "6782643746",
-      "links": { "ios": "", "android": "", "support": "/support/screenshot-goblin.html", "privacy": "/privacy/screenshot-goblin.html" }
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/screenshot-goblin.html",
+        "privacy": "/privacy/screenshot-goblin.html"
+      }
     },
     {
       "id": "digital-chapel",
@@ -23,22 +28,27 @@
       "iconSource": "Kimberly_App_Studio/Apps/Digital Chapel/CURRENT BUILD - Apple iPad Fix 2026-06-25/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png",
       "category": "Faith & Lifestyle",
       "status": "Coming Soon on Apple",
-      "featured": true,
-      "order": 2,
+      "featured": false,
+      "order": 21,
       "iosAppId": "6781108213",
-      "links": { "ios": "", "android": "", "support": "/support/digital-chapel.html", "privacy": "/privacy/digital-chapel.html" }
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/digital-chapel.html",
+        "privacy": "/privacy/digital-chapel.html"
+      }
     },
     {
       "id": "afterlife-network",
       "name": "Afterlife Network",
       "tagline": "Spirit communication with safety at the center.",
-      "description": "Explore spirit communication tools including Sensor Synth, Live Sweep, and Word Beacon — with community safety controls.",
+      "description": "Explore spirit communication tools including Sensor Synth, Live Sweep, and Word Beacon \u2014 with community safety controls.",
       "icon": "/assets/apps/afterlife-network.png",
-      "iconSource": "App Store (id6781073734) — official marketing icon",
+      "iconSource": "App Store (id6781073734) \u2014 official marketing icon",
       "category": "Entertainment",
       "status": "Live on Apple",
       "featured": true,
-      "order": 3,
+      "order": 1,
       "iosAppId": "6781073734",
       "links": {
         "ios": "https://apps.apple.com/app/id6781073734",
@@ -51,13 +61,13 @@
       "id": "mappy-navigation",
       "name": "Mappy Navigator",
       "tagline": "The journey starts here.",
-      "description": "Save journey spots, smart parking, and favorite places — a friendly map companion for everyday adventures.",
+      "description": "Save journey spots, smart parking, and favorite places \u2014 a friendly map companion for everyday adventures.",
       "icon": "/assets/apps/mappy-navigation.png",
-      "iconSource": "App Store (id6780708874) — official marketing icon",
+      "iconSource": "App Store (id6780708874) \u2014 official marketing icon",
       "category": "Navigation",
       "status": "Live on Apple",
       "featured": true,
-      "order": 4,
+      "order": 2,
       "iosAppId": "6780708874",
       "links": {
         "ios": "https://apps.apple.com/app/id6780708874",
@@ -72,11 +82,11 @@
       "tagline": "Peaceful guided meditation.",
       "description": "A calming meditation experience designed to help you breathe, reflect, and find stillness throughout your day.",
       "icon": "/assets/apps/meditation-journey-444.png",
-      "iconSource": "App Store (id6780117824) — official marketing icon",
+      "iconSource": "App Store (id6780117824) \u2014 official marketing icon",
       "category": "Wellness",
       "status": "Live on Apple",
       "featured": true,
-      "order": 5,
+      "order": 3,
       "iosAppId": "6780117824",
       "links": {
         "ios": "https://apps.apple.com/app/id6780117824",
@@ -94,9 +104,15 @@
       "iconSource": "Kimberly_App_Studio/Archives/Interrupted Partial Copies/WidgetMe_partial_20260624_201612/assets/brand-universe/memory-friend.png",
       "category": "Lifestyle",
       "status": "Resubmitting to Apple",
-      "featured": true,
-      "order": 6,
-      "links": { "ios": "", "android": "", "support": "/support/memory-friend.html", "privacy": "/privacy/memory-friend.html", "marketing": "/marketing/memory-friend.html" }
+      "featured": false,
+      "order": 22,
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/memory-friend.html",
+        "privacy": "/privacy/memory-friend.html",
+        "marketing": "/marketing/memory-friend.html"
+      }
     },
     {
       "id": "socialnature",
@@ -104,11 +120,11 @@
       "tagline": "Discover nature. Share wonder.",
       "description": "SocialNature is a wildlife discovery community guided by Traveler the Turtle. Browse real discoveries, share photos and videos, comment with other explorers, identify species with AI Nature Lens, join the Nature Race, and build your collections.",
       "icon": "/assets/apps/socialnature.png",
-      "iconSource": "App Store (id6782241664) — official marketing icon",
+      "iconSource": "App Store (id6782241664) \u2014 official marketing icon",
       "category": "Education",
       "status": "Live on Apple & Google Play",
-      "featured": false,
-      "order": 7,
+      "featured": true,
+      "order": 4,
       "iosAppId": "6782241664",
       "links": {
         "ios": "https://apps.apple.com/app/id6782241664",
@@ -122,13 +138,13 @@
       "id": "dream-board",
       "name": "Dream Board",
       "tagline": "Dream boldly with Dreamy the Cloud.",
-      "description": "A personal vision board, dream journal, doodle pad, and goal tracker — designed to help you dream boldly and follow through, all on your device.",
+      "description": "A personal vision board, dream journal, doodle pad, and goal tracker \u2014 designed to help you dream boldly and follow through, all on your device.",
       "icon": "/assets/apps/dream-board.png",
-      "iconSource": "Kimberly_App_Studio/Archives/Moved Folder Archives/Dream_Board_FULL_ARCHIVE_20260624_201612.zip → Dream Board/App Icon.png",
+      "iconSource": "Kimberly_App_Studio/Archives/Moved Folder Archives/Dream_Board_FULL_ARCHIVE_20260624_201612.zip \u2192 Dream Board/App Icon.png",
       "category": "Creativity",
       "status": "Preparing for App Store",
       "featured": false,
-      "order": 8,
+      "order": 23,
       "links": {
         "ios": "",
         "android": "",
@@ -148,46 +164,85 @@
       "status": "Prototype",
       "featured": false,
       "order": 9,
-      "links": { "ios": "", "android": "", "support": "/support/mobile-eyes.html", "privacy": "/privacy/mobile-eyes.html" }
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/mobile-eyes.html",
+        "privacy": "/privacy/mobile-eyes.html"
+      }
     },
     {
       "id": "snow-patrol",
       "name": "Snow Patrol",
       "tagline": "Adventures with Snow the husky.",
-      "description": "A heartfelt game-inspired experience starring Snow — built around real stories, warmth, and playful exploration.",
+      "description": "A heartfelt game-inspired experience starring Snow \u2014 built around real stories, warmth, and playful exploration.",
       "icon": "/assets/apps/snow-patrol.png",
       "iconSource": "Desktop/Snow Patrol/2f4a936e-f963-407c-ac52-7f1e7eb9e94e.png",
       "category": "Games",
       "status": "In Development",
       "featured": false,
       "order": 10,
-      "links": { "ios": "", "android": "", "support": "/support/snow-patrol.html", "privacy": "/privacy/snow-patrol.html" }
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/snow-patrol.html",
+        "privacy": "/privacy/snow-patrol.html"
+      }
     },
     {
       "id": "widget-guru-studio",
       "name": "Widget Guru Studio",
-      "tagline": "34 wallpapers · 21 widgets · 12 themes",
-      "description": "Version 1.0 includes 34 wallpaper styles, 21 widget styles, 12 theme packs, and 30 quote cards — save favorites and personalize your phone with Widget Guru. More collections coming in future updates.",
+      "tagline": "34 wallpapers \u00b7 21 widgets \u00b7 12 themes",
+      "description": "Version 1.0 includes 34 wallpaper styles, 21 widget styles, 12 theme packs, and 30 quote cards \u2014 save favorites and personalize your phone with Widget Guru. More collections coming in future updates.",
       "icon": "/assets/apps/widget-guru-studio.png",
       "iconSource": "Kimberly_App_Studio/Apps/Widget Guru Studio/assets/brand-universe/widget-guru.png",
       "category": "Lifestyle",
       "status": "Preparing for App Store",
+      "featured": false,
+      "order": 24,
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/widget-guru-studio.html",
+        "privacy": "/privacy/widget-guru-studio.html"
+      }
+    },
+    {
+      "id": "memories411",
+      "name": "Memories411",
+      "tagline": "Every picture tells a story.",
+      "description": "Preserve family photos, 411 interview stories, and shared albums \u2014 guided by Mr. Polaroid. Save your first family story in minutes.",
+      "icon": "/assets/apps/memories411.png",
+      "iconSource": "Kimberly_App_Studio/Apps/Memories411/assets/brand/mr-polaroid-hero.png",
+      "category": "Family",
+      "status": "Preparing for App Store",
       "featured": true,
-      "order": 12,
-      "links": { "ios": "", "android": "", "support": "/support/widget-guru-studio.html", "privacy": "/privacy/widget-guru-studio.html" }
+      "order": 5,
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/memories411.html",
+        "privacy": "/privacy/memories411.html",
+        "marketing": "/marketing/memories411.html"
+      }
     },
     {
       "id": "gem-and-me",
       "name": "Gem & Me",
       "tagline": "Your gentle AI companion.",
-      "description": "Pick up your last conversation, make a tiny plan, or just talk for a minute — a calm companion app prototype.",
+      "description": "Pick up your last conversation, make a tiny plan, or just talk for a minute \u2014 a calm companion app prototype.",
       "icon": null,
-      "iconSource": "No official PNG icon on KimT9Drive yet — add public/assets/apps/gem-and-me.png when ready",
+      "iconSource": "No official PNG icon on KimT9Drive yet \u2014 add public/assets/apps/gem-and-me.png when ready",
       "category": "Companion",
       "status": "Prototype",
       "featured": false,
       "order": 11,
-      "links": { "ios": "", "android": "", "support": "/support/gem-and-me.html", "privacy": "/privacy/gem-and-me.html" }
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/gem-and-me.html",
+        "privacy": "/privacy/gem-and-me.html"
+      }
     }
   ]
 }
