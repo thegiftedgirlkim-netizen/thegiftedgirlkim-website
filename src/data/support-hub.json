@@ -487,11 +487,17 @@
     },
     "widget-guru-studio": {
       "version": "1.0.0",
-      "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "Widget Guru Studio stores favorites and widget configuration locally on your device. When you save a wallpaper, the image is written to your photo library with your permission. We do not collect, upload, or sell personal information.",
+      "lastUpdated": "July 2026",
+      "effectiveDate": "July 10, 2026",
+      "dataCollected": "Widget Guru Studio stores favorites, widget configuration, and app preferences locally on your device. When you save a wallpaper, the image is written to your photo library with your permission. If you choose a city for weather widgets, that city preference is stored on your device. We do not collect, upload, or sell personal information.",
       "onDeviceOnly": true,
-      "thirdPartyServices": "No third-party analytics or advertising SDKs. Apple App Store / Google Play billing when applicable.",
+      "thirdPartyServices": "No third-party analytics or advertising SDKs. Optional weather widgets request forecast data from Open-Meteo (open-meteo.com) using the city you choose \u2014 used only to display weather in the app. Apple App Store / Google Play billing when applicable.",
+      "extraSections": [
+        {
+          "title": "Weather (optional)",
+          "body": "Some widgets (such as Sky Glance and Day Board) can show weather. If you choose a city, the app stores that city or location preference on your device and requests forecast data from Open-Meteo, a third-party weather service. We do not create an Open-Meteo account for you. Weather data is used only to display conditions in the app. Location is not used for advertising or tracking."
+        }
+      ],
       "knownIssues": [
         "Home screen widgets require platform-specific setup \u2014 follow in-app Guru Tips.",
         "Wallpaper styles include both photo backgrounds and curated color gradients."
@@ -505,7 +511,7 @@
       "faqs": [
         {
           "question": "How much content is in Version 1.0?",
-          "answer": "Version 1.0 includes 34 wallpaper styles, 21 widget styles, 12 theme packs, and 30 inspirational quote cards, plus Guru Tips and favorites. This is the start of a growing library \u2014 more content will be added in future updates."
+          "answer": "Version 1.0 includes a growing library of wallpaper styles, widget styles, theme packs, and inspirational quote cards, plus Guru Tips and favorites. More content is added in updates."
         },
         {
           "question": "Does Widget Guru Studio upload my favorites?",
@@ -514,6 +520,10 @@
         {
           "question": "Why does the app ask for Photos access?",
           "answer": "Only when you tap Save to Gallery on a wallpaper. The app does not read your entire photo library."
+        },
+        {
+          "question": "Does the app use my location for weather?",
+          "answer": "Weather is optional. You choose a city in the app. That preference stays on your device, and the app requests forecast data from Open-Meteo to display weather. It is not used for ads or tracking."
         },
         {
           "question": "Is this the same as Widget Me?",
