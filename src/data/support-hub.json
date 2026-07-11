@@ -486,7 +486,7 @@
       ]
     },
     "widget-guru-studio": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lastUpdated": "July 2026",
       "effectiveDate": "July 10, 2026",
       "dataCollected": "Widget Guru Studio stores favorites, widget configuration, and app preferences locally on your device. When you save a wallpaper, the image is written to your photo library with your permission. If you choose a city for weather widgets, that city preference is stored on your device. We do not collect, upload, or sell personal information.",
@@ -510,8 +510,8 @@
       ],
       "faqs": [
         {
-          "question": "How much content is in Version 1.0?",
-          "answer": "Version 1.0 includes a growing library of wallpaper styles, widget styles, theme packs, and inspirational quote cards, plus Guru Tips and favorites. More content is added in updates."
+          "question": "How much content is in the current version?",
+          "answer": "Version 1.1.0 includes 132 wallpaper styles, 19 widget styles, 24 theme packs, and 37 quote cards, plus Guru Tips and favorites. More content is added in updates."
         },
         {
           "question": "Does Widget Guru Studio upload my favorites?",
