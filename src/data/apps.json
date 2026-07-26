@@ -243,6 +243,25 @@
         "support": "/support/gem-and-me.html",
         "privacy": "/privacy/gem-and-me.html"
       }
+    },
+    {
+      "id": "language-engine-411",
+      "name": "Language Engine 411",
+      "tagline": "Learn offline. Practice with AI. Travel with confidence.",
+      "description": "Travel-adventure language learning with Lingo the conductor \u2014 offline Learn lines, AI Translate & Practice, World Tour, and immersive destination homes for 9 languages.",
+      "icon": "/assets/apps/language-engine-411.png",
+      "iconSource": "Kimberly_App_Studio/Apps/Language Engine/STORE_ASSETS/icon/app_icon_1024.png",
+      "category": "Education",
+      "status": "Preparing for App Store & Google Play",
+      "featured": true,
+      "order": 4,
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/language-engine-411.html",
+        "privacy": "/privacy/language-engine-411.html",
+        "marketing": "/marketing/language-engine-411.html"
+      }
     }
   ]
 }

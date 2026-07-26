@@ -592,6 +592,71 @@
           "answer": "Not in v1 \u2014 photos save on your device. Share your family code now; cloud sync so everyone sees the same album is coming in v2."
         }
       ]
+    },
+    "language-engine-411": {
+      "version": "1.0.0",
+      "lastUpdated": "July 2026",
+      "effectiveDate": "July 25, 2026",
+      "dataCollected": "Language Engine 411 stores learning progress, favorites, coins, stamps, and settings on your device. No account is required. When you use AI Translate or AI Practice, the text or voice content you submit is sent to our AI provider (Groq) only to generate the translation or coaching response. Camera Translate processes images you capture for that purpose. We do not sell your learning data or use it for advertising.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "Groq AI for Translate and Practice when you use those features. Native device text-to-speech (Android / iOS). Apple App Store / Google Play billing when Express Pass or paid unlocks are offered. No third-party advertising SDKs.",
+      "marketing": {
+        "headline": "Learn offline. Practice with AI. Travel with confidence.",
+        "intro": [
+          "Language Engine 411 is a travel-adventure language coach guided by Lingo, the friendly bullet-train conductor.",
+          "Build real travel skills with offline Learn courses for nine Express lines, then practice with AI Translate and AI Practice when you want live help. Immersive destination homes make Spanish feel like Spain and French feel like Paris."
+        ],
+        "features": [
+          "9 offline Learn lines \u00d7 10 units each (Spanish, French, German, Italian, Portuguese, Arabic, Japanese, Chinese, Korean)",
+          "Teach \u2192 Mini Quiz \u2192 Match \u2192 20-question unit exams with gold and silver stamps",
+          "Daily review, favorites, and needs-practice lists",
+          "Voice and text Translate with Lingo",
+          "AI Practice coaching and pronunciation help",
+          "World Tour word collector game",
+          "Travel phrase packs and Route Map / passport progress",
+          "Unique cultural home screens for each Express destination",
+          "No account required \u2014 progress stays on your phone"
+        ],
+        "builtFor": "Language Engine 411 is built for travelers, students, and families who want confident phrases before the trip \u2014 offline-first learning with optional AI help when you need it."
+      },
+      "extraSections": [
+        {
+          "title": "Microphone and Camera",
+          "body": "Language Engine 411 may request microphone access for Voice Translate and Practice, and camera access for Camera Translate. These permissions are only used when you choose those features. Audio and images are processed to provide the feature you requested."
+        },
+        {
+          "title": "On-Device Learning vs AI Features",
+          "body": "Offline Learn packs, World Tour, Travel packs, Route Map, and local progress stay on your device. AI Translate and AI Practice require an internet connection and send the content you submit to our AI provider to generate a response."
+        },
+        {
+          "title": "Deleting Your Data",
+          "body": "You can clear progress by clearing the app\u2019s stored data in device Settings or by uninstalling the app. For privacy questions, email thegiftedgirlkim@gmail.com."
+        }
+      ],
+      "knownIssues": [],
+      "plannedFeatures": [
+        "Brazilian Portuguese destination polish",
+        "More specialty Travel packs",
+        "Express Pass in-app purchase wiring"
+      ],
+      "faqs": [
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Progress, coins, and stamps stay on this phone."
+        },
+        {
+          "question": "Does Learn work offline?",
+          "answer": "Yes. Learn courses, World Tour, and Travel packs are offline-first. Translate and Practice need internet for AI."
+        },
+        {
+          "question": "How do I switch languages?",
+          "answer": "On Home, tap the flag / Express title (or the menu), then choose another language line such as French Express."
+        },
+        {
+          "question": "Who is Lingo?",
+          "answer": "Lingo is your AI language conductor \u2014 the friendly bullet-train mascot who guides lessons, speaks phrases, and cheers you on."
+        }
+      ]
     }
   }
 }
