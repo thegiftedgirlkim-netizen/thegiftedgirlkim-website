@@ -59,21 +59,22 @@
     },
     {
       "id": "mappy-navigation",
-      "name": "Mappy Navigator",
-      "tagline": "The journey starts here.",
-      "description": "Save journey spots, smart parking, and favorite places \u2014 a friendly map companion for everyday adventures.",
+      "name": "Mappy Navigation",
+      "tagline": "Navigation for the whole journey.",
+      "description": "Plan trips, navigate confidently, discover useful stops, prepare for arrival, and follow key directions from a paired Apple Watch or Wear OS watch.",
       "icon": "/assets/apps/mappy-navigation.png",
       "iconSource": "App Store (id6780708874) \u2014 official marketing icon",
       "category": "Navigation",
-      "status": "Live on Apple",
+      "status": "Live on Apple & Google Play",
       "featured": true,
       "order": 2,
       "iosAppId": "6780708874",
       "links": {
         "ios": "https://apps.apple.com/app/id6780708874",
-        "android": "",
+        "android": "https://play.google.com/store/apps/details?id=com.mappyjourney.app",
         "support": "/support/mappy-navigation.html",
-        "privacy": "/privacy/mappy-navigation.html"
+        "privacy": "/privacy/mappy-navigation.html",
+        "marketing": "/marketing/mappy-navigation.html"
       }
     },
     {
