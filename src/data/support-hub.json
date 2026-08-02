@@ -657,6 +657,72 @@
           "answer": "Lingo is your AI language conductor \u2014 the friendly bullet-train mascot who guides lessons, speaks phrases, and cheers you on."
         }
       ]
+    },
+    "horoscope-411": {
+      "version": "1.0.0",
+      "lastUpdated": "August 2026",
+      "effectiveDate": "August 1, 2026",
+      "dataCollected": "Horoscope 411 is offline-first. Your birth profile (name, birthday, optional birth time/city, sun sign), favorites, saved people, settings, and reading caches are stored locally on your device. No account is required. When a Horoscope 411 Plus subscriber uses Ask the Stars, the question and sun-sign context are sent through our secure service to Groq only to generate that response. Do not include sensitive personal information in Ask the Stars. Core Daily 411, Moon, Angel Numbers, and compatibility readings remain available offline from bundled content. We do not sell your personal information or use it for advertising.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "Groq AI only when a Plus subscriber uses Ask the Stars. Apple App Store / Google Play billing for Horoscope 411 Plus subscriptions. Optional local device notifications for Daily 411 reminders. No third-party advertising SDKs.",
+      "marketing": {
+        "headline": "Your Stars. Your Day. Your 411.",
+        "intro": [
+          "Horoscope 411 is a premium celestial companion guided by Luna (wisdom) and Nova (luck & fun).",
+          "Check your Daily 411, browse all 12 signs, explore Moon 411 and Angel Numbers, and reflect with compatibility \u2014 for entertainment and personal reflection, never as guaranteed predictions."
+        ],
+        "features": [
+          "Daily 411 with cosmic scores for your sun sign",
+          "All 12 zodiac signs with celestial medallion browsing",
+          "Moon 411 with local moon-phase calculation",
+          "Angel Numbers 411 lookup (free)",
+          "Love & compatibility matrix",
+          "Birth profile and saved people (free tier includes a small limit)",
+          "Luna & Nova guide messages throughout the app",
+          "Horoscope 411 Plus: tomorrow, 7-day, and monthly forecasts",
+          "Restore purchases for Plus on Apple and Google",
+          "No account required \u2014 your profile stays on your device"
+        ],
+        "builtFor": "Horoscope 411 is built for anyone who enjoys astrology as entertainment and gentle daily reflection \u2014 warm, offline-friendly, and clear about what is free versus Plus."
+      },
+      "extraSections": [
+        {
+          "title": "Subscriptions (Horoscope 411 Plus)",
+          "body": "Horoscope 411 Plus offers auto-renewable monthly and yearly subscriptions processed by Apple or Google. Payment is charged to your store account at confirmation. Subscriptions renew unless canceled at least 24 hours before the period ends. Manage or cancel in your Apple ID or Google Play account settings. Restoring purchases is available in the app. Deleting local app data does not cancel a subscription."
+        },
+        {
+          "title": "Ask the Stars (Plus)",
+          "body": "Ask the Stars may send your question and sun-sign context to our AI provider (Groq) to generate a reflective response. This requires an internet connection and is intended for Plus subscribers. Avoid submitting medical, legal, financial, or other sensitive personal details."
+        },
+        {
+          "title": "Deleting Your Data",
+          "body": "In the app, open Settings & Info and use Delete all local data to erase your profile, favorites, saved people, and caches on this device. You can also clear the app\u2019s storage in device Settings or uninstall the app. This does not cancel an active Apple or Google subscription."
+        }
+      ],
+      "knownIssues": [],
+      "plannedFeatures": [],
+      "faqs": [
+        {
+          "question": "Is Horoscope 411 real fortune-telling?",
+          "answer": "No. Content is for entertainment and personal reflection only. It is not medical, legal, financial, or professional advice and does not guarantee outcomes."
+        },
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Your birth profile and preferences stay on this device."
+        },
+        {
+          "question": "What is free vs Horoscope 411 Plus?",
+          "answer": "Free includes Daily 411, basic Signs (today), Moon 411, Angel Numbers, basic profile, and basic compatibility. Plus unlocks tomorrow, 7-day, and monthly forecasts plus other gated premium experiences shown in the app."
+        },
+        {
+          "question": "How do I restore a Plus purchase?",
+          "answer": "Open Horoscope 411 Plus in the app and tap Restore purchases. Purchases are handled by Apple or Google."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email thegiftedgirlkim@gmail.com or hello@thegiftedgirlkim.com with Horoscope 411 in the subject line, your device type, and app version 1.0.0."
+        }
+      ]
     }
   }
 }

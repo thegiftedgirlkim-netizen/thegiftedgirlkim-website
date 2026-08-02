@@ -262,6 +262,25 @@
         "privacy": "/privacy/language-engine-411.html",
         "marketing": "/marketing/language-engine-411.html"
       }
+    },
+    {
+      "id": "horoscope-411",
+      "name": "Horoscope 411",
+      "tagline": "Your Stars. Your Day. Your 411.",
+      "description": "Offline-first daily astrology with Luna & Nova — Daily 411, Moon 411, Angel Numbers, compatibility, and Horoscope 411 Plus forecasts for entertainment and personal reflection.",
+      "icon": "/assets/apps/horoscope-411.png",
+      "iconSource": "Kimberly_App_Studio/Apps/Horoscopes 411 / Codex worktree iOS AppIcon-512@2x.png",
+      "category": "Lifestyle",
+      "status": "Preparing for App Store & Google Play",
+      "featured": true,
+      "order": 3,
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/horoscope-411.html",
+        "privacy": "/privacy/horoscope-411.html",
+        "marketing": "/marketing/horoscope-411.html"
+      }
     }
   ]
 }
