@@ -193,25 +193,92 @@
       ]
     },
     "mappy-navigation": {
-      "version": "1.0.3",
-      "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "Mappy Navigator uses location data to provide maps, routes, parking helpers, and journey spots. Location is used to power app features and is not sold to third parties.",
+      "version": "4.2 (iOS 1.0.8)",
+      "lastUpdated": "August 2026",
+      "effectiveDate": "August 1, 2026",
+      "dataCollected": "Mappy Navigation uses precise or approximate location, destinations, route details, and search requests to provide maps, routing, navigation, nearby-place discovery, arrival help, and watch directions. Saved trips, Arrival Guides, preferences, and free AI Trip Designer usage are stored locally on your device. When you choose AI Trip Designer, the trip request you enter and relevant planning details are sent securely to Mappy's server and an AI service provider to create your itinerary. Optional photos are accessed only when you choose to add one. We do not sell personal information or use it for third-party advertising.",
       "onDeviceOnly": false,
-      "thirdPartyServices": "Map and place data providers, Apple App Store billing. Specific map providers may vary by platform and version.",
+      "thirdPartyServices": "Map, search, routing, traffic, weather, and place-data providers used to deliver the feature you request; an AI service provider accessed through Mappy's server for AI Trip Designer; Apple App Store and Google Play for purchases and subscription management; and native Apple Watch / Wear OS services for companion directions. Store providers process payments, and Mappy does not receive your complete card number.",
+      "marketing": {
+        "headline": "More than directions — a companion for the whole journey.",
+        "intro": [
+          "Mappy keeps its proven map and navigation experience at the center, then adds useful tools before the drive, along the route, and after arrival.",
+          "Plan an AI-assisted trip, find practical stops, save Arrival Guides, and glance at the next turn, distance, and ETA from a paired Apple Watch or Wear OS watch."
+        ],
+        "features": [
+          "Turn-by-turn navigation with route choices and friendly voice guidance",
+          "Mappy Guide for trip planning, saved places, and useful journey tools",
+          "AI Trip Designer with three complimentary plans each month",
+          "Arrival Guides for entrances, floors, parking notes, photos, and other details you save",
+          "Truck and freight search for truck stops, fuel, scales, rest areas, parking, and repair",
+          "Apple Watch and Wear OS companion directions during active phone navigation",
+          "Local data controls, feature suggestions, problem reporting, and store review links",
+          "Optional Mappy Plus subscription for unlimited AI Trip Designer access"
+        ],
+        "builtFor": "Mappy is built for everyday drivers, travelers, walkers, families, and freight professionals who want dependable navigation without losing the useful details surrounding the trip.",
+        "price": "Core navigation remains available without a subscription. AI Trip Designer includes three complimentary plans per calendar month. Mappy Plus is $4.99 per month for unlimited AI Trip Designer use; store pricing and taxes may vary.",
+        "disclaimer": "Navigation, traffic, weather, business, parking, fuel, scale, and arrival information may be delayed, incomplete, or inaccurate. Stay alert, obey signs and laws, and never interact with the app while driving. Watch directions require a compatible paired phone and watch. Mappy is not an emergency service."
+      },
+      "extraSections": [
+        {
+          "title": "Location and Navigation",
+          "body": "Mappy requests location permission to show your position, calculate routes, provide active navigation, find nearby places, and share current route guidance with a paired watch. Location and route requests are sent to the map, search, routing, traffic, weather, or place-data provider needed for the feature you selected. You can manage location permission in device Settings."
+        },
+        {
+          "title": "AI Trip Designer",
+          "body": "AI Trip Designer requires an internet connection. The destination, dates, preferences, and other trip details you submit are sent through Mappy's server to an AI service provider to generate a suggested plan. Do not enter sensitive personal, financial, medical, or confidential information. AI suggestions may be incomplete or inaccurate and should be verified before travel."
+        },
+        {
+          "title": "Saved Information and Optional Photos",
+          "body": "Saved trips, Arrival Guides, preferences, and usage counters are stored locally on your device unless a feature clearly tells you otherwise. Camera or photo-library access is used only when you choose to add an image. You can export or delete local Mappy data from the app. Uninstalling the app may also remove locally stored information."
+        },
+        {
+          "title": "Watch Companion",
+          "body": "When navigation is active on your phone, Mappy may send the next maneuver, distance, remaining distance, ETA, street name, and arrival state to a paired Apple Watch or Wear OS watch. The watch companion does not replace the phone's navigation session and may not update if the devices disconnect."
+        },
+        {
+          "title": "Subscriptions",
+          "body": "Mappy Plus purchases are processed by Apple or Google. Mappy receives purchase status needed to unlock features but does not receive your complete payment-card information. Deleting Mappy or its local data does not cancel a subscription; manage or cancel it through your App Store or Google Play account."
+        },
+        {
+          "title": "Data Retention and Deletion",
+          "body": "Local Mappy data remains on your device until you delete it, clear app storage, or uninstall the app. Information temporarily processed by service providers is retained according to their policies and as needed to provide, secure, and troubleshoot the requested feature. For privacy or support requests, email thegiftedgirlkim@gmail.com."
+        }
+      ],
       "knownIssues": [
-        "Some route estimates are prototype-style \u2014 always verify real-world conditions before driving.",
-        "Future traffic cards hidden until date/time selector is available."
+        "GPS and reverse-geocoded street addresses can differ from a building's posted address, especially near property boundaries.",
+        "Business hours, parking, fuel prices, scales, building entrances, and indoor directions may be incomplete or outdated.",
+        "The watch companion requires a compatible paired watch, the latest Mappy version, and an active navigation session started on the phone."
       ],
       "plannedFeatures": [
-        "Future date/time route planning",
-        "Expanded scenic spot sharing",
-        "Route weather cards"
+        "Expanded walking and bicycle journey tools",
+        "More detailed arrival and entrance guidance",
+        "Additional trip-planning and route-condition refinements"
       ],
       "faqs": [
         {
           "question": "Why does Mappy need my location?",
-          "answer": "Location permission powers map features, saved journey spots, parking helpers, and navigation. You can manage permissions in your device Settings."
+          "answer": "Location permission powers the map, route calculation, active navigation, nearby searches, arrival help, and watch directions. You can manage permission in device Settings."
+        },
+        {
+          "question": "How does the watch companion work?",
+          "answer": "Install Mappy on a compatible paired Apple Watch or Wear OS watch, start navigation on the phone, and keep the devices connected. The watch then shows key maneuver, distance, ETA, and arrival information."
+        },
+        {
+          "question": "Is AI Trip Designer free?",
+          "answer": "You receive three complimentary AI-generated trip plans per calendar month. Mappy Plus provides unlimited AI Trip Designer access for $4.99 per month; store pricing and taxes may vary."
+        },
+        {
+          "question": "How do I manage or cancel Mappy Plus?",
+          "answer": "Use Manage Subscription inside Mappy or open your Apple App Store or Google Play subscription settings. Deleting the app or local data does not cancel the store subscription."
+        },
+        {
+          "question": "How do I delete my information?",
+          "answer": "Open Mappy's data controls to export or delete locally saved information. You may also clear app storage or uninstall the app. Email thegiftedgirlkim@gmail.com if you need privacy help."
+        },
+        {
+          "question": "Where can I report a problem or suggest a feature?",
+          "answer": "Use Report a Problem or Suggest a Feature inside Mappy, or email thegiftedgirlkim@gmail.com with your device, app version, and a description of what happened."
         }
       ]
     },
