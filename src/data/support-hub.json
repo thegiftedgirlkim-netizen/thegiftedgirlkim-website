@@ -790,6 +790,72 @@
           "answer": "Email thegiftedgirlkim@gmail.com or hello@thegiftedgirlkim.com with Horoscope 411 in the subject line, your device type, and app version 1.0.0."
         }
       ]
+    },
+    "ai-fitness-411": {
+      "version": "1.0.1",
+      "lastUpdated": "August 2026",
+      "effectiveDate": "August 2, 2026",
+      "dataCollected": "AI Fitness 411 stores meals, water, workouts, weight, profile details, and settings on your device. No account is required. With your permission, the app may read steps and heart rate from Apple Health (iOS) or Health Connect (Android). When you use AI Coach, meal ideas, or scan coaching, the text or meal photos you choose may be sent to our AI providers only to generate that response. Do not include sensitive personal information you do not want processed. We do not sell health or personal data or use it for advertising.",
+      "onDeviceOnly": false,
+      "thirdPartyServices": "AI providers (such as DeepSeek and Groq) when you use AI Coach or AI meal/scan coaching. Apple Health / Health Connect when you grant permission. Apple App Store / Google Play billing for optional Premium. No third-party advertising SDKs.",
+      "marketing": {
+        "headline": "Hydro + Flex. Food, water, movement, and coaching.",
+        "intro": [
+          "AI Fitness 411 is your on-device fitness companion with Hydro (hydration & recovery) and Flex (workouts) as AI coaches.",
+          "Track macros without spreadsheet vibes, log food by scan or search, sip with Hydro, move with Activity, and connect Apple Health or Health Connect when you want steps and heart rate synced."
+        ],
+        "features": [
+          "Today dashboard with macros, calories, water, steps, heart rate, and weekly summaries",
+          "Food logging: scan meal, barcode, nutrition label, search, and quick add",
+          "Full macro tracking included (calories, protein, carbs, fat, sugar)",
+          "Hydro water tracker with bottle presets and unit toggles",
+          "Activity with steps, active calories, distance, workouts, and heart rate",
+          "AI Coach with Hydro + Flex (3 free asks to try; Premium for unlimited)",
+          "Apple Health / Health Connect for steps and heart rate (with permission)",
+          "Optional Premium at $4.99/mo — unlimited AI coaching",
+          "Restore purchases and Delete all local data in Profile",
+          "No account required — your logs stay on your device"
+        ],
+        "builtFor": "AI Fitness 411 is built for everyday tracking with a little personality — clear free vs Premium, on-device logs, and coaches you can ask when you need a nudge."
+      },
+      "extraSections": [
+        {
+          "title": "Health data",
+          "body": "With your permission, AI Fitness 411 reads steps and heart rate from Apple Health or Health Connect (which may include data your watch shares). That data is used only to show activity and heart metrics in the app. You can revoke access anytime in system Health / Health Connect settings."
+        },
+        {
+          "title": "Subscriptions (Premium)",
+          "body": "Optional Premium is a monthly auto-renewable subscription sold through the Apple App Store or Google Play (product ID aifitness411_premium_monthly). Payment is handled by Apple or Google. Subscriptions renew unless canceled at least 24 hours before the period ends. Manage or cancel in your store account settings. Restoring purchases is available in the app. Deleting local app data does not cancel a subscription."
+        },
+        {
+          "title": "Deleting Your Data",
+          "body": "In Profile, use Delete all local data to erase your profile, meals, water, workouts, and caches on this device. Free AI Coach preview counts are kept so deleting data is not a subscription bypass. You can also clear the app’s storage in device Settings or uninstall the app."
+        }
+      ],
+      "knownIssues": [],
+      "plannedFeatures": [],
+      "faqs": [
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Meals, water, workouts, and settings stay on this device."
+        },
+        {
+          "question": "What is free vs Premium?",
+          "answer": "Macros, food logging, Hydro, Activity, and wearables stay available. You get 3 free AI Coach asks to try Hydro & Flex. Premium ($4.99/mo) unlocks unlimited AI coaching."
+        },
+        {
+          "question": "How do I restore a Premium purchase?",
+          "answer": "Open Premium in the app and tap Restore purchases. Purchases are handled by Apple or Google."
+        },
+        {
+          "question": "Does Delete all local data cancel Premium?",
+          "answer": "No. It only erases on-device data. Manage or cancel subscriptions in your Apple or Google account settings."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "Email thegiftedgirlkim@gmail.com or hello@thegiftedgirlkim.com with AI Fitness 411 in the subject line, your device type, and app version 1.0.1."
+        }
+      ]
     }
   }
 }

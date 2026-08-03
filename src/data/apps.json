@@ -282,6 +282,25 @@
         "privacy": "/privacy/horoscope-411.html",
         "marketing": "/marketing/horoscope-411.html"
       }
+    },
+    {
+      "id": "ai-fitness-411",
+      "name": "AI Fitness 411",
+      "tagline": "Hydro + Flex. Food, water, movement, and coaching.",
+      "description": "Track macros, water, steps, and heart rate with Hydro and Flex as your AI coaches. Log meals by scan or search, connect Apple Health or Health Connect, and unlock unlimited coaching with optional Premium.",
+      "icon": "/assets/apps/ai-fitness-411.png",
+      "iconSource": "Kimberly_App_Studio/Apps/AI Fitness 411/STORE_ASSETS/app-icon-1024.png",
+      "category": "Health & Fitness",
+      "status": "Preparing for App Store & Google Play",
+      "featured": true,
+      "order": 2,
+      "links": {
+        "ios": "",
+        "android": "",
+        "support": "/support/ai-fitness-411.html",
+        "privacy": "/privacy/ai-fitness-411.html",
+        "marketing": "/marketing/ai-fitness-411.html"
+      }
     }
   ]
 }
