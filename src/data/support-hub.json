@@ -84,12 +84,12 @@
       ]
     },
     "digital-chapel": {
-      "version": "1.6.3",
-      "lastUpdated": "June 2026",
-      "effectiveDate": "June 27, 2026",
-      "dataCollected": "If you create an account, we may store account credentials and profile information needed for sign-in and community features. Scripture reading, prayer notes, and personal reflections may be stored locally and/or synced through our backend when you use connected features.",
+      "version": "2.1.0",
+      "lastUpdated": "August 2026",
+      "effectiveDate": "August 5, 2026",
+      "dataCollected": "Optional magic-link account email and user identifier; synced notes, highlights, saved scriptures, journey progress, and preferences when signed in; Chapel Plus entitlement records; Prayer Circle posts; sermon/song submission contact details and files; AI processing of selected Scripture when you use AI Bible Teacher; optional AI and community reports. Guest mode can use core features without an account.",
       "onDeviceOnly": false,
-      "thirdPartyServices": "May include Supabase (authentication and data sync), Apple App Store / Google Play billing, and text-to-speech or narration services when enabled. See in-app settings for current providers.",
+      "thirdPartyServices": "Supabase (authentication and data sync); Google Gemini via our server-side Supabase infrastructure for AI Bible Teacher; Apple App Store / Google Play for Chapel Plus; on-device text-to-speech for narration.",
       "knownIssues": [
         "Some features require an internet connection.",
         "Subscription and billing help requires your store receipt."

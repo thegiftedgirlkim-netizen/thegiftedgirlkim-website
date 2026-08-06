@@ -80,9 +80,13 @@ async function main() {
   <main id="main" class="page-main" data-app-support></main>
 ${TAIL('/src/js/app-support-page.js')}`;
 
+    const privacyDescription = app.id === 'digital-chapel'
+      ? 'Official Digital Chapel privacy policy — AI Bible Teacher, Prayer Circle, subscriptions, account deletion, and contact for data or content removal.'
+      : `Privacy policy for ${app.name} by ${site.company} — what data is collected, on-device processing, and contact information.`;
+
     const privacyHtml = `${HEAD.replace('</head>', `${ogBlock({
       title: `${app.name} Privacy Policy — ${site.company}`,
-      description: `Privacy policy for ${app.name} by ${site.company} — what data is collected, on-device processing, and contact information.`,
+      description: privacyDescription,
       url: privacyUrl,
       image: ogImage
     })}
