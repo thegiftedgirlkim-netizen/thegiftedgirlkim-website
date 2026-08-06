@@ -137,9 +137,14 @@ ${TAIL('/src/js/app-marketing-page.js')}`;
     [`/marketing/${app.id}.html`, 'monthly', '0.7']
   ]);
 
+  // Digital Chapel community guidelines (hand-maintained under /community/)
+  const communityPages = [
+    ['/community/digital-chapel.html', 'monthly', '0.7']
+  ];
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${[...staticPages, ...appPages].map(([loc, freq, priority]) => `  <url>
+${[...staticPages, ...appPages, ...communityPages].map(([loc, freq, priority]) => `  <url>
     <loc>${siteUrl}${loc === '/' ? '/' : loc}</loc>
     <changefreq>${freq}</changefreq>
     <priority>${priority}</priority>

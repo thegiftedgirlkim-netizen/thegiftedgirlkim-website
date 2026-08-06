@@ -30,7 +30,8 @@ const pages = [
   ...rootPages.map(name => [name, resolve(__dirname, `${name}.html`)]),
   ...collectGeneratedPages('support', 'support'),
   ...collectGeneratedPages('privacy', 'privacy'),
-  ...collectGeneratedPages('marketing', 'marketing')
+  ...collectGeneratedPages('marketing', 'marketing'),
+  ...collectGeneratedPages('community', 'community')
 ];
 
 export default defineConfig({
