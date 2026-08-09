@@ -194,11 +194,11 @@
     },
     "mappy-navigation": {
       "version": "4.2 (iOS 1.0.8)",
-      "lastUpdated": "August 2026",
-      "effectiveDate": "August 1, 2026",
-      "dataCollected": "Mappy Navigation uses precise or approximate location, destinations, route details, and search requests to provide maps, routing, navigation, nearby-place discovery, arrival help, and watch directions. Saved trips, Arrival Guides, preferences, and free AI Trip Designer usage are stored locally on your device. When you choose AI Trip Designer, the trip request you enter and relevant planning details are sent securely to Mappy's server and an AI service provider to create your itinerary. Optional photos are accessed only when you choose to add one. We do not sell personal information or use it for third-party advertising.",
+      "lastUpdated": "August 8, 2026",
+      "effectiveDate": "August 8, 2026",
+      "dataCollected": "Mappy Navigation uses precise or approximate location, destinations, route details, and search requests to provide maps, routing, navigation, nearby-place discovery, arrival help, and watch directions. Saved trips, Arrival Guides, preferences, and free AI Trip Designer usage counters are stored locally on your device. When you choose to use the optional AI Trip Designer, the trip-planning information you submit is sent through Mappy's backend server to Groq, the third-party AI provider Mappy uses to generate a suggested itinerary. Optional photos are accessed only when you choose to add one. We do not sell personal information or use it for third-party advertising.",
       "onDeviceOnly": false,
-      "thirdPartyServices": "Map, search, routing, traffic, weather, and place-data providers used to deliver the feature you request; an AI service provider accessed through Mappy's server for AI Trip Designer; Apple App Store and Google Play for purchases and subscription management; and native Apple Watch / Wear OS services for companion directions. Store providers process payments, and Mappy does not receive your complete card number.",
+      "thirdPartyServices": "Map, search, routing, traffic, weather, and place-data providers used to deliver the feature you request; Groq, accessed through Mappy's backend server, for optional AI Trip Designer plans; Apple App Store and Google Play for purchases and subscription management; and native Apple Watch / Wear OS services for companion directions. Store providers process payments, and Mappy does not receive your complete card number.",
       "marketing": {
         "headline": "More than directions — a companion for the whole journey.",
         "intro": [
@@ -226,7 +226,7 @@
         },
         {
           "title": "AI Trip Designer",
-          "body": "AI Trip Designer requires an internet connection. The destination, dates, preferences, and other trip details you submit are sent through Mappy's server to an AI service provider to generate a suggested plan. Do not enter sensitive personal, financial, medical, or confidential information. AI suggestions may be incomplete or inaccurate and should be verified before travel."
+          "body": "Mappy includes an optional AI-assisted Trip Designer. Information is sent for AI planning only when you choose to use that feature (for example, by creating a trip plan after reviewing the in-app AI notice). When you use AI Trip Designer, the trip-planning information you submit is sent through Mappy's backend server to Groq, the third-party AI provider Mappy uses to generate the suggested itinerary. Information that may be transmitted for an AI plan: origin (starting location text), destination or area text, trip duration/days, travel style/preferences, optional notes you enter about what matters most, verified road mileage and travel time from map routing, and verified nearby mapped places (name, place type, and coordinates) that Mappy already found through public map services. Information that is not included in the AI Trip Designer request: your name, email address, Apple ID, phone number, payment or card details, photos, Arrival Guides, saved trip notes beyond the current planning form, or a continuous live GPS track of your device. Do not enter sensitive personal information in trip notes. Retention: Mappy's trip-planner backend processes the request to create a plan and return it to your device. The Mappy trip-planner function does not save your AI prompts or AI responses in a Mappy database. Completed plans you choose to save remain on your device as local saves. Groq may temporarily retain or log requests under its own provider policies for system reliability or abuse monitoring unless otherwise configured in Groq account settings; see Groq's Your Data in GroqCloud documentation for current practices. Platform infrastructure that hosts Mappy's backend may also keep standard operational logs under that provider's terms. AI-generated travel suggestions may contain errors or be incomplete. Confirm hours, accessibility, weather, road conditions, and other important travel details independently before traveling."
         },
         {
           "title": "Saved Information and Optional Photos",
@@ -242,7 +242,7 @@
         },
         {
           "title": "Data Retention and Deletion",
-          "body": "Local Mappy data remains on your device until you delete it, clear app storage, or uninstall the app. Information temporarily processed by service providers is retained according to their policies and as needed to provide, secure, and troubleshoot the requested feature. For privacy or support requests, email thegiftedgirlkim@gmail.com."
+          "body": "Local Mappy data remains on your device until you delete it, clear app storage, or uninstall the app. Mappy does not save AI Trip Designer prompts or responses to a Mappy database. Information temporarily processed by service providers such as Groq is retained according to their policies and as needed to provide, secure, and troubleshoot the requested feature. For privacy or support requests, email thegiftedgirlkim@gmail.com."
         }
       ],
       "knownIssues": [
