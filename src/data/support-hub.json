@@ -794,15 +794,15 @@
     "ai-fitness-411": {
       "version": "1.0.1",
       "lastUpdated": "August 2026",
-      "effectiveDate": "August 2, 2026",
-      "dataCollected": "AI Fitness 411 stores meals, water, workouts, weight, profile details, and settings on your device. No account is required. With your permission, the app may read steps and heart rate from Apple Health (iOS) or Health Connect (Android). When you use AI Coach, meal ideas, or scan coaching, the text or meal photos you choose may be sent to our AI providers only to generate that response. Do not include sensitive personal information you do not want processed. We do not sell health or personal data or use it for advertising.",
+      "effectiveDate": "August 11, 2026",
+      "dataCollected": "AI Fitness 411 stores meals, water, workouts, weight, profile details, and settings on your device. No account is required. With your permission, the app may read steps, heart rate, distance, active energy/calories, and workouts from Apple Health (HealthKit) on iOS or Health Connect on Android. The app does not write health data back to Apple Health or Health Connect. Health readings used for in-app Activity and display stay on your device. When you use AI Coach, a short numeric activity snapshot from the app (for example steps, water, calories, and related metrics already in the app) may be included with your message and sent to our AI services (DeepSeek and/or Groq) only to generate that reply. When you choose meal, barcode, or nutrition-label scanning, the camera image you capture for that estimate may be sent to Groq only to produce nutrition guidance. If you Flag an AI Coach reply, a report is saved to our developer database (Supabase) for safety review (see AI Flag / content reports). Do not include sensitive personal information you do not want processed. We do not sell health or personal data or use it for advertising.",
       "onDeviceOnly": false,
-      "thirdPartyServices": "AI providers (such as DeepSeek and Groq) when you use AI Coach or AI meal/scan coaching. Apple Health / Health Connect when you grant permission. Apple App Store / Google Play billing for optional Premium. No third-party advertising SDKs.",
+      "thirdPartyServices": "DeepSeek and Groq for AI Coach replies; Groq for optional meal/label photo estimates; Supabase only for optional AI Flag/content reports; Apple Health / Health Connect when you grant permission; Apple App Store / Google Play for optional Premium billing. No third-party advertising SDKs.",
       "marketing": {
         "headline": "Hydro + Flex. Food, water, movement, and coaching.",
         "intro": [
           "AI Fitness 411 is your on-device fitness companion with Hydro (hydration & recovery) and Flex (workouts) as AI coaches.",
-          "Track macros without spreadsheet vibes, log food by scan or search, sip with Hydro, move with Activity, and connect Apple Health or Health Connect when you want steps and heart rate synced."
+          "Track macros without spreadsheet vibes, log food by scan or search, sip with Hydro, move with Activity, and connect Apple Health or Health Connect when you want read-only activity metrics synced."
         ],
         "features": [
           "Today dashboard with macros, calories, water, steps, heart rate, and weekly summaries",
@@ -811,17 +811,30 @@
           "Hydro water tracker with bottle presets and unit toggles",
           "Activity with steps, active calories, distance, workouts, and heart rate",
           "AI Coach with Hydro + Flex (3 free asks to try; Premium for unlimited)",
-          "Apple Health / Health Connect for steps and heart rate (with permission)",
-          "Optional Premium at $4.99/mo — unlimited AI coaching",
+          "Apple Health / Health Connect read-only activity metrics (with permission)",
+          "Flag an AI Coach reply in-app when something looks wrong",
+          "Optional Premium at $4.99/mo \u2014 unlimited AI coaching",
           "Restore purchases and Delete all local data in Profile",
-          "No account required — your logs stay on your device"
+          "No account required \u2014 your logs stay on your device"
         ],
-        "builtFor": "AI Fitness 411 is built for everyday tracking with a little personality — clear free vs Premium, on-device logs, and coaches you can ask when you need a nudge."
+        "builtFor": "AI Fitness 411 is built for everyday tracking with a little personality \u2014 clear free vs Premium, on-device logs, and coaches you can ask when you need a nudge."
       },
       "extraSections": [
         {
           "title": "Health data",
-          "body": "With your permission, AI Fitness 411 reads steps and heart rate from Apple Health or Health Connect (which may include data your watch shares). That data is used only to show activity and heart metrics in the app. You can revoke access anytime in system Health / Health Connect settings."
+          "body": "With your permission, AI Fitness 411 requests read-only access to steps, heart rate, distance, active energy/calories, and workouts from Apple Health (HealthKit) or Health Connect (which may include data your watch shares into that service). This is used to show activity progress in-app. The app does not write to Apple Health or Health Connect. You can revoke access in system Health / Health Connect settings. Separately, if you use AI Coach, numeric metrics already available in the app may be included in that Coach request (see AI Coach & meal scanning)."
+        },
+        {
+          "title": "AI Coach & meal scanning",
+          "body": "AI Coach (Hydro/Flex) may send your prompt, coach context, and a short metrics snapshot to DeepSeek and/or Groq to generate a reply. Meal, barcode, or nutrition-label scanning may send the photo you take to Groq for an estimate. These AI requests are for that feature only and are not used by us to train a permanent chat archive in AI Fitness 411."
+        },
+        {
+          "title": "Camera",
+          "body": "Camera access is used when you choose meal, barcode, or nutrition-label scanning. Photos are not required for core logging."
+        },
+        {
+          "title": "AI Flag / content reports",
+          "body": "If you tap Flag on an AI Coach reply and submit a report, the app saves it to our Supabase database table used for AI Fitness 411 reports. A successful Flag means the report was stored. Saved fields can include: report category, optional note, a short copy of your prompt, an excerpt of the AI reply, coach persona, app version, guest flag, status, and created time. Reports are not tied to a user account. Reports may be reviewed and marked during the retention period. Email (mailto) is offered only if saving the report fails \u2014 it is not the primary path."
         },
         {
           "title": "Subscriptions (Premium)",
@@ -829,7 +842,7 @@
         },
         {
           "title": "Deleting Your Data",
-          "body": "In Profile, use Delete all local data to erase your profile, meals, water, workouts, and caches on this device. Free AI Coach preview counts are kept so deleting data is not a subscription bypass. You can also clear the app’s storage in device Settings or uninstall the app."
+          "body": "In Profile, use Delete all local data to erase your profile, meals, water, workouts, and caches on this device. Free AI Coach preview counts are kept so deleting data is not a subscription bypass. You can also clear the app\u2019s storage in device Settings or uninstall the app. This does not cancel an active Apple or Google subscription. AI Flag reports already submitted are stored in our developer database (Supabase) for safety review for up to 90 days from submission, then deleted automatically. Flag reports are guest submissions and are not linked to a user account, so the app cannot offer a self-serve Flag-delete button and we do not promise email-based Flag deletion. Delete all local data does not remove Flag reports that were already saved."
         }
       ],
       "knownIssues": [],
@@ -848,8 +861,16 @@
           "answer": "Open Premium in the app and tap Restore purchases. Purchases are handled by Apple or Google."
         },
         {
-          "question": "Does Delete all local data cancel Premium?",
-          "answer": "No. It only erases on-device data. Manage or cancel subscriptions in your Apple or Google account settings."
+          "question": "Does Delete all local data cancel Premium or remove Flag reports?",
+          "answer": "No. Delete all local data only erases on-device data and does not cancel subscriptions. It also does not remove AI Flag reports already saved for safety review. Flag reports are kept up to 90 days, then deleted automatically."
+        },
+        {
+          "question": "What health data does the app read?",
+          "answer": "With permission, read-only steps, heart rate, distance, active energy/calories, and workouts from Apple Health or Health Connect. The app does not write health data back."
+        },
+        {
+          "question": "What happens when I Flag an AI Coach reply?",
+          "answer": "The report is saved in-app to our developer database (Supabase) for review. Fields can include category, note, prompt, reply excerpt, persona, and app version. Guest Flag reports are not linked to an account. They are retained up to 90 days, then deleted automatically. Mailto is only a fallback if saving fails."
         },
         {
           "question": "How do I contact support?",
