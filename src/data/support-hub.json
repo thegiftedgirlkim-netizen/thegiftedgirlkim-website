@@ -843,6 +843,10 @@
         {
           "title": "Deleting Your Data",
           "body": "In Profile, use Delete all local data to erase your profile, meals, water, workouts, and caches on this device. Free AI Coach preview counts are kept so deleting data is not a subscription bypass. You can also clear the app\u2019s storage in device Settings or uninstall the app. This does not cancel an active Apple or Google subscription. AI Flag reports already submitted are stored in our developer database (Supabase) for safety review for up to 90 days from submission, then deleted automatically. Flag reports are guest submissions and are not linked to a user account, so the app cannot offer a self-serve Flag-delete button and we do not promise email-based Flag deletion. Delete all local data does not remove Flag reports that were already saved."
+        },
+        {
+          "title": "Data Retention",
+          "body": "Fitness logs, profile information, meals, water, workouts, weight, settings, and other locally stored app data remain on your device until you delete them using \"Delete all local data,\" clear the app\u2019s storage, or uninstall the app. AI Fitness 411 does not maintain a cloud account containing this local fitness history.\n\nAI Flag reports submitted for safety review are stored in our developer database for up to 90 days from submission and are then automatically deleted. AI Flag reports are guest submissions and are not linked to a user account.\n\nInformation sent to third-party services for AI processing is subject to the applicable service provider\u2019s data-handling practices as described in this policy."
         }
       ],
       "knownIssues": [],

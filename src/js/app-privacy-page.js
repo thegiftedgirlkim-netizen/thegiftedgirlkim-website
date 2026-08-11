@@ -42,6 +42,15 @@ function renderCustomPrivacyBody(doc) {
   `;
 }
 
+function renderSectionParagraphs(body) {
+  return String(body ?? '')
+    .split(/\n\n+/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => `<p>${escapeHtml(part)}</p>`)
+    .join('\n');
+}
+
 function renderGenericPrivacyBody(app) {
   const onDeviceTitle = app.onDeviceProcessingTitle || "On-Device Processing";
   const onDeviceText =
@@ -61,7 +70,7 @@ function renderGenericPrivacyBody(app) {
 
         ${(app.extraSections || []).map(section => `
         <h2>${escapeHtml(section.title)}</h2>
-        <p>${escapeHtml(section.body)}</p>
+        ${renderSectionParagraphs(section.body)}
         `).join('')}
 
         <h2>${escapeHtml(onDeviceTitle)}</h2>
