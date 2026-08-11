@@ -791,7 +791,7 @@
         }
       ]
     },
-    "ai-fitness-411": {
+        "ai-fitness-411": {
       "version": "1.0.1",
       "lastUpdated": "August 2026",
       "effectiveDate": "August 11, 2026",
@@ -876,7 +876,9 @@
           "question": "How do I contact support?",
           "answer": "Email thegiftedgirlkim@gmail.com or hello@thegiftedgirlkim.com with AI Fitness 411 in the subject line, your device type, and app version 1.0.1."
         }
-      ]
+      ],
+      "onDeviceProcessingTitle": "On-Device and Online Processing",
+      "onDeviceProcessing": "Your fitness logs and settings are stored on your device. Features that require online processing are described above: AI Coach requests may be processed by DeepSeek and/or Groq, optional meal or nutrition-label images may be processed by Groq, and AI Flag reports are stored temporarily in Supabase for safety review."
     }
   }
 }

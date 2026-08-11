@@ -43,9 +43,12 @@ function renderCustomPrivacyBody(doc) {
 }
 
 function renderGenericPrivacyBody(app) {
-  const onDeviceText = app.onDeviceOnly
-    ? 'Yes — core personal content is designed to stay on your device unless a specific feature clearly states otherwise.'
-    : 'Some features may sync through our backend or use online services. See details below.';
+  const onDeviceTitle = app.onDeviceProcessingTitle || "On-Device Processing";
+  const onDeviceText =
+    app.onDeviceProcessing ||
+    (app.onDeviceOnly
+      ? "Yes — core personal content is designed to stay on your device unless a specific feature clearly states otherwise."
+      : "Some features may sync through our backend or use online services. See details below.");
 
   return `
         <p><strong>${escapeHtml(site.company)}</strong> ("we," "us," or "our") publishes <strong>${escapeHtml(app.name)}</strong>. This privacy policy explains how the app handles information. This is the official privacy policy for ${escapeHtml(app.name)}.</p>
@@ -61,7 +64,7 @@ function renderGenericPrivacyBody(app) {
         <p>${escapeHtml(section.body)}</p>
         `).join('')}
 
-        <h2>On-Device Processing</h2>
+        <h2>${escapeHtml(onDeviceTitle)}</h2>
         <p>${escapeHtml(onDeviceText)}</p>
 
         <h2>Third-Party Services</h2>
