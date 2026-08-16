@@ -127,6 +127,7 @@ ${TAIL('/src/js/app-marketing-page.js')}`;
     ['/about.html', 'monthly', '0.8'],
     ['/support.html', 'weekly', '0.9'],
     ['/privacy.html', 'weekly', '0.9'],
+    ['/ggk-commercial-publisher-privacy.html', 'monthly', '0.6'],
     ['/terms.html', 'yearly', '0.5'],
     ['/contact.html', 'yearly', '0.6']
   ];

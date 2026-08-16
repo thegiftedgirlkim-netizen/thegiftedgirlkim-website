@@ -46,6 +46,14 @@ function mountPrivacyHome() {
         </div>
 
         <div class="support-section-head" style="margin-top:2.5rem;">
+          <p class="eyebrow">Internal Tools</p>
+          <h2 class="section-head__title">GGK Commercial Publisher</h2>
+        </div>
+        <div class="prose" style="margin-bottom:2rem;">
+          <p><a href="/ggk-commercial-publisher-privacy.html">GGK Commercial Publisher Privacy Policy</a> — internal YouTube publishing tool operated by The Gifted Girl Kim LLC. This is not an app-store product privacy policy.</p>
+        </div>
+
+        <div class="support-section-head" style="margin-top:2.5rem;">
           <p class="eyebrow">This Website</p>
           <h2 class="section-head__title">Website Privacy Policy</h2>
         </div>
