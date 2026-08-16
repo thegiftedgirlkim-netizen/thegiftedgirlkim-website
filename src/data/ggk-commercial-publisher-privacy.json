@@ -1,6 +1,7 @@
 {
   "title": "GGK Commercial Publisher Privacy Policy",
   "effectiveDate": "August 16, 2026",
+  "lastUpdated": "August 16, 2026",
   "intro": "The Gifted Girl Kim LLC (\"we,\" \"us,\" or \"our\") operates GGK Commercial Publisher, an internal creator and publishing tool. This privacy policy explains how GGK Commercial Publisher uses Google/YouTube API Services and how related information is handled. This policy is only for GGK Commercial Publisher. It is not the privacy policy for AI Fitness 411 or any other mobile app.",
   "sections": [
     {
@@ -46,13 +47,28 @@
         },
         {
           "type": "a",
+          "text": "Google Privacy Policy",
+          "href": "https://www.google.com/policies/privacy"
+        },
+        {
+          "type": "a",
           "text": "Google API Services User Data Policy",
           "href": "https://developers.google.com/terms/api-services-user-data-policy"
         },
         {
           "type": "a",
+          "text": "YouTube Terms of Service",
+          "href": "https://www.youtube.com/t/terms"
+        },
+        {
+          "type": "a",
           "text": "YouTube API Services Terms of Service",
           "href": "https://developers.google.com/youtube/terms/api-services-terms-of-service"
+        },
+        {
+          "type": "a",
+          "text": "YouTube API Services Developer Policies",
+          "href": "https://developers.google.com/youtube/terms/developer-policies"
         }
       ]
     },
@@ -76,7 +92,7 @@
         },
         {
           "type": "p",
-          "text": "When an operator confirms an upload, the tool sends the approved video file plus a title and description to YouTube. YouTube may return a video ID and privacy status, which the tool can store as a publishing record. The tool may also read status information for videos it already uploaded, for example to confirm that a video remains private."
+          "text": "When an operator confirms an upload, the tool sends the approved video file plus a title and description to YouTube. YouTube may return a video ID and privacy status. While the YouTube connection remains authorized, the tool may store that video ID as part of the publishing record and may read status information for videos it already uploaded, for example to confirm that a video remains private."
         }
       ]
     },
@@ -111,26 +127,20 @@
       "blocks": [
         {
           "type": "p",
-          "text": "GGK Commercial Publisher may store the following safe account metadata locally on the GGK host:"
+          "text": "While YouTube is connected, GGK Commercial Publisher may store the following locally on the GGK host:"
         },
         {
           "type": "ul",
           "items": [
-            "Account ID",
-            "Platform (YouTube)",
-            "Channel ID",
-            "Channel title",
-            "Connection status",
-            "Granted OAuth scopes",
-            "Token expiry time",
-            "Connected and disconnected timestamps",
-            "An opaque vault reference that is not the token itself",
+            "Google/YouTube Authorized Data: channel ID, channel title, granted OAuth scopes, token expiry, and any YouTube video ID returned by the API",
+            "GGK-owned publishing/audit data: job IDs, approval IDs, render IDs, project IDs, operator-authored titles and descriptions, intended privacy/status, timestamps, and a flag that an upload occurred",
+            "Non-sensitive local identifiers: local account ID, platform name, connection status, connected/disconnected timestamps, and an opaque vault reference that is not the token itself",
             "Safe last-error text, if a connection or upload fails"
           ]
         },
         {
           "type": "p",
-          "text": "Publishing records may also include the approved render identifier, approval identifier, video title and description used for the upload, privacy status, and any YouTube video ID returned by the API."
+          "text": "OAuth access tokens and refresh tokens are stored only in the Windows vault, not in Publisher JSON."
         }
       ]
     },
@@ -166,11 +176,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "OAuth tokens remain in the Windows vault until the operator disconnects YouTube, the credential is replaced by a new connection, or the vault entry is otherwise removed on the GGK host."
+          "text": "OAuth tokens remain in the Windows vault only while YouTube is connected. On disconnect or OAuth revocation, the vault credential is deleted immediately."
         },
         {
           "type": "p",
-          "text": "Local account metadata and publishing records remain on the GGK host until the operator disconnects, replaces, or deletes them as part of operating the tool. There is no separate timed auto-delete job for these local records."
+          "text": "Google/YouTube Authorized Data is deleted immediately on disconnect or when authorization can no longer be refreshed. GGK-owned publishing records, local identifiers, commercial projects, render approvals, and locally created MP4 files are retained as internal business/audit records."
         },
         {
           "type": "p",
@@ -183,20 +193,33 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The operator can disconnect YouTube from GGK Commercial Publisher. Disconnecting asks Google to revoke the stored authorization token and then deletes the locally stored credential from the Windows vault. The local account record is marked disconnected."
+          "text": "The operator can disconnect YouTube from GGK Commercial Publisher. Disconnecting immediately asks Google to revoke the stored authorization token and deletes the locally stored credential from the Windows vault."
         },
         {
           "type": "p",
-          "text": "Disconnecting does not automatically erase already-created publishing records on the GGK host, and it does not delete or change videos that were already uploaded to YouTube."
+          "text": "At the same time, GGK immediately deletes Google/YouTube Authorized Data from local records: channel ID, channel title, granted scopes, token expiry, and YouTube video IDs. This happens as soon as disconnect or revocation is processed, and in all cases within 7 days."
         },
         {
           "type": "p",
-          "text": "You can also revoke GGK Commercial Publisher's access directly in your Google Account permissions. After Google access is revoked, the tool cannot call YouTube APIs until the operator connects again."
+          "text": "GGK keeps its own publishing history after disconnect: job IDs, approved render identifiers, operator-authored titles and descriptions, timestamps, and a local flag that an upload occurred. Locally created MP4s, commercial projects, render approvals, and mock publishing history are not deleted because YouTube was disconnected."
+        },
+        {
+          "type": "p",
+          "text": "Disconnecting does not delete or change videos that were already uploaded to YouTube."
+        },
+        {
+          "type": "p",
+          "text": "You can also revoke GGK Commercial Publisher's access directly in your Google Account permissions or Google security settings. After Google access is revoked, or if stored tokens can no longer be refreshed, the tool cannot call YouTube APIs until the operator connects again, and remaining Google/YouTube Authorized Data is deleted as described above."
         },
         {
           "type": "a",
           "text": "Google Account permissions",
           "href": "https://myaccount.google.com/permissions"
+        },
+        {
+          "type": "a",
+          "text": "Google security settings — revoke app access",
+          "href": "https://security.google.com/settings/security/permissions"
         },
         {
           "type": "p",
@@ -218,7 +241,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "We may update this policy as GGK Commercial Publisher changes. The effective date at the top will change when an update is posted."
+          "text": "We may update this policy as GGK Commercial Publisher changes. The effective date and last-updated date at the top will change when an update is posted."
         }
       ]
     },

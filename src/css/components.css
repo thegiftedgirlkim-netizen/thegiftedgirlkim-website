@@ -1423,6 +1423,33 @@
   flex-wrap: wrap;
 }
 
+.ggk-youtube-brand {
+  margin: 1.1rem 0 1.5rem;
+  padding: 1rem 1.15rem;
+  max-width: 28rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.ggk-youtube-brand a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ggk-youtube-brand img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+.ggk-youtube-brand p {
+  margin: 0.7rem 0 0;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
 @media (min-width: 640px) {
   .support-app-grid {
     grid-template-columns: repeat(2, 1fr);

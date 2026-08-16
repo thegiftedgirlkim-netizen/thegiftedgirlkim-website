@@ -12,7 +12,9 @@ const rootPages = [
   'privacy',
   'terms',
   'contact',
+  'ggk-commercial-publisher',
   'ggk-commercial-publisher-privacy',
+  'ggk-commercial-publisher-terms',
   '404'
 ];
 

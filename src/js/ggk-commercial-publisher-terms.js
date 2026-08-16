@@ -1,7 +1,7 @@
 import { mountShell } from './layout.js';
 import { supportEmail } from './support-hub.js';
 import site from '../data/site.json';
-import doc from '../data/ggk-commercial-publisher-privacy.json';
+import doc from '../data/ggk-commercial-publisher-terms.json';
 
 function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, (char) => ({
@@ -15,9 +15,6 @@ function escapeHtml(value) {
 
 function renderBlocks(blocks = []) {
   return blocks.map((block) => {
-    if (block.type === 'h3') {
-      return `<h3>${escapeHtml(block.text)}</h3>`;
-    }
     if (block.type === 'ul') {
       const items = (block.items || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('');
       return `<ul>${items}</ul>`;
@@ -29,8 +26,8 @@ function renderBlocks(blocks = []) {
   }).join('\n');
 }
 
-function mountPolicy() {
-  const mount = document.querySelector('[data-ggk-publisher-privacy]');
+function mountTerms() {
+  const mount = document.querySelector('[data-ggk-publisher-terms]');
   if (!mount) return;
 
   const sections = (doc.sections || []).map((section) => `
@@ -41,7 +38,7 @@ function mountPolicy() {
   mount.innerHTML = `
     <section class="page-hero page-hero--compact">
       <div class="container">
-        <p class="eyebrow">Privacy Policy</p>
+        <p class="eyebrow">Terms of Service</p>
         <h1 class="page-hero__title">GGK Commercial Publisher</h1>
         <p class="page-hero__lead">Effective date: ${escapeHtml(doc.effectiveDate)}</p>
         ${doc.lastUpdated ? `<p class="page-hero__lead">Last updated: ${escapeHtml(doc.lastUpdated)}</p>` : ''}
@@ -55,7 +52,7 @@ function mountPolicy() {
 
         <div class="hero__actions support-privacy-actions">
           <a href="/ggk-commercial-publisher.html" class="btn btn-primary">GGK Commercial Publisher</a>
-          <a href="/ggk-commercial-publisher-terms.html" class="btn btn-secondary">Terms of Service</a>
+          <a href="/ggk-commercial-publisher-privacy.html" class="btn btn-secondary">Privacy Policy</a>
           <a href="mailto:${escapeHtml(supportEmail())}" class="btn btn-secondary">Email ${escapeHtml(site.company)}</a>
         </div>
       </div>
@@ -64,4 +61,4 @@ function mountPolicy() {
 }
 
 mountShell();
-mountPolicy();
+mountTerms();

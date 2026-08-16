@@ -1,0 +1,32 @@
+{
+  "title": "GGK Commercial Publisher",
+  "eyebrow": "Internal Publishing Tool",
+  "lead": "An owner-operated publishing tool from The Gifted Girl Kim LLC.",
+  "intro": "GGK Commercial Publisher is used to prepare, approve, and publish The Gifted Girl's own media and commercials to connected platforms. It is not a public app, subscription, or third-party YouTube publishing service.",
+  "youtubeHeading": "YouTube connection and publishing",
+  "youtubeLead": "GGK Commercial Publisher can connect an authorized Google/YouTube account and upload owner-approved commercials to that YouTube channel using YouTube API Services.",
+  "youtubeChannelUrl": "https://www.youtube.com/@TheGiftedGirlKIM",
+  "youtubeLogoAlt": "YouTube",
+  "authorizationHeading": "Google / YouTube authorization",
+  "authorization": [
+    "The operator connects YouTube through Google OAuth 2.0.",
+    "The currently authorized account is the owner's own YouTube account/channel.",
+    "Requested access is YouTube read access, used to identify the channel, and YouTube video upload access, used to upload an approved commercial.",
+    "Uploading requires an approved render and a separate operator confirmation. Current live YouTube uploads are private unless YouTube's API project restrictions later allow public or scheduled release."
+  ],
+  "revokeHeading": "Disconnect and revoke access",
+  "revoke": [
+    "The operator can disconnect YouTube inside GGK Commercial Publisher. Disconnecting revokes Google authorization, deletes the locally stored credential, and deletes Google/YouTube Authorized Data from local records.",
+    "You can also revoke GGK Commercial Publisher access from your Google Account permissions or Google security settings. After access is revoked, the tool cannot call YouTube APIs until the operator connects again.",
+    "Disconnecting does not delete videos already uploaded to YouTube, and it does not delete GGK's own local projects, renders, or publishing history."
+  ],
+  "legalHeading": "Privacy and Terms",
+  "privacyHref": "/ggk-commercial-publisher-privacy.html",
+  "privacyLabel": "GGK Commercial Publisher Privacy Policy",
+  "termsHref": "/ggk-commercial-publisher-terms.html",
+  "termsLabel": "GGK Commercial Publisher Terms of Service",
+  "googlePermissionsHref": "https://myaccount.google.com/permissions",
+  "googlePermissionsLabel": "Google Account permissions",
+  "googleSecurityHref": "https://security.google.com/settings/security/permissions",
+  "googleSecurityLabel": "Google security settings"
+}
