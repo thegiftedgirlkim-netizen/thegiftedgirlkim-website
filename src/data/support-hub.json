@@ -822,7 +822,7 @@
       "extraSections": [
         {
           "title": "Health data",
-          "body": "With your permission, AI Fitness 411 requests read-only access to steps, heart rate, distance, active energy/calories, and workouts from Apple Health (HealthKit) or Health Connect (which may include data your watch shares into that service). This is used to show activity progress in-app. The app does not write to Apple Health or Health Connect. You can revoke access in system Health / Health Connect settings. Separately, if you use AI Coach, numeric metrics already available in the app may be included in that Coach request (see AI Coach & meal scanning)."
+          "body": "With your permission, AI Fitness 411 requests read-only access to steps, heart rate, distance, Active Calories Burned (active energy/calories), and workouts from Apple Health (HealthKit) or Health Connect (which may include data your watch shares into that service). This data is used only to display your activity and fitness progress inside AI Fitness 411. Active Calories Burned represents calories burned through physical activity and is displayed as part of your daily activity progress. The app does not write to Apple Health or Health Connect. You can revoke access in system Health / Health Connect settings. Separately, if you use AI Coach, numeric metrics already available in the app may be included in that Coach request (see AI Coach & meal scanning)."
         },
         {
           "title": "AI Coach & meal scanning",
