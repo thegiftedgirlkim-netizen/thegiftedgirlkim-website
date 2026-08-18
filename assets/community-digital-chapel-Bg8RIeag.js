@@ -1,0 +1,31 @@
+import{m as s}from"./layout-D8VIfDvx.js";import{g as n,r as p}from"./support-hub-LCD0Cl3t.js";const l="Digital Chapel Community Guidelines",c="Community Guidelines",m="Prayer Circle & Chapel submissions",d="Digital Chapel’s Prayer Circle and Chapel submission areas are meant for respectful Christian encouragement, prayer, praise, and ministry sharing.",h=[{heading:"Prayer / Praise community content",blocks:[{type:"p",text:"Prayer Circle is a place to share prayer requests, praise reports, and healing testimonies with the fellowship. Posts appear publicly under the anonymous label “Fellowship Member.” Digital Chapel does not publicly display another user’s identity on Prayer Circle posts."},{type:"p",text:"Keep posts suitable for a mixed-age Christian audience and focused on prayer, encouragement, and praise."}]},{heading:"Respectful conduct — please do",blocks:[{type:"ul",items:["Share prayer needs, praise reports, and healing testimonies with kindness","Keep posts suitable for a mixed-age fellowship audience","Respect that Prayer Circle posts appear as “Fellowship Member” (anonymous)","Use Report or Hide if something is harmful or unwanted on your device","Use Delete My Prayer only on posts you created on this device (or while signed in as the creating member)"]}]},{heading:"Prohibited / objectionable content — please do not",blocks:[{type:"ul",items:["Post threats, harassment, hate, sexual content, or graphic violence","Share private contact information, meeting arrangements, or doxxing details","Spam, advertise, or solicit money","Impersonate clergy or claim Digital Chapel speaks with divine authority"]},{type:"p",text:"Digital Chapel may filter or block posts that appear to include prohibited or harmful language and may remove content that violates these guidelines."}]},{heading:"Reporting content",blocks:[{type:"p",text:"If you see a Prayer/Praise post that is harmful, abusive, or otherwise violates these guidelines, use Report. Reporting notifies Digital Chapel for review. Please do not include private personal information in your report reason beyond what is needed to explain the concern."}]},{heading:"Hide and Delete My Prayer",blocks:[{type:"p",text:"Hide removes a post from your own view on this device only. It does not remove the post for other users."},{type:"p",text:"Delete My Prayer is available when ownership can be reliably established for a new post you created. It removes that post from the public Prayer Circle wall. You cannot delete another person’s post."},{type:"p",text:"Older legacy posts created before ownership support may not offer Delete My Prayer. For those posts, use Hide, Report, or contact support for help."}]},{heading:"Moderation and removal",blocks:[{type:"p",text:"Prayer/Praise posts may appear immediately. Digital Chapel may remove content that violates these guidelines. Owner moderation tools are used to review reports and remove violating posts when appropriate."},{type:"p",text:"Safety and moderation records may be retained as needed for security, fraud prevention, moderation, and legal compliance."}]},{heading:"Sermon and song submissions",blocks:[{type:"p",text:"Churches, ministers, and artists may submit sermons or original songs for review. Submit only work you own or have permission to share. Submissions are reviewed before publication and are not published automatically."},{type:"p",text:"Submissions may include your name, church or organization, email address, and an uploaded audio or video file. Contact details are used to manage your submission."},{type:"p",text:"To request removal of a submission, use Chapel → Request Removal / Withdraw Submission (no Digital Chapel account required), or contact support. Verified removal uses the removal code provided at submit time when available. Legacy submissions without a removal code may request manual review. Nothing is removed automatically without owner review."}]},{heading:"Contact / Support",blocks:[{type:"p",text:"Questions, safety concerns, or requests for help with content removal: thegiftedgirlkim@gmail.com"},{type:"p",text:"In the app, you can also use You → Contact Support or You → Contact / Request Data or Content Removal."},{type:"p",text:"Privacy Policy: https://thegiftedgirlkim.com/privacy/digital-chapel.html"}]}],i={title:l,eyebrow:c,lead:m,intro:d,sections:h};function a(t){return String(t??"").replace(/[&<>"']/g,e=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[e])}function u(t){return a(t).replace("https://thegiftedgirlkim.com/privacy/digital-chapel.html",'<a href="https://thegiftedgirlkim.com/privacy/digital-chapel.html" target="_blank" rel="noopener">https://thegiftedgirlkim.com/privacy/digital-chapel.html</a>').replace("thegiftedgirlkim@gmail.com",'<a href="mailto:thegiftedgirlkim@gmail.com">thegiftedgirlkim@gmail.com</a>')}function y(t=[]){return t.map(e=>e.type==="h3"?`<h3>${a(e.text)}</h3>`:e.type==="ul"?`<ul>${(e.items||[]).map(o=>`<li>${a(o)}</li>`).join("")}</ul>`:`<p>${u(e.text)}</p>`).join(`
+`)}function g(){const t=n("digital-chapel"),e=document.querySelector("[data-app-community]");if(!e)return;const r=(i.sections||[]).map(o=>`
+        <h2>${a(o.heading)}</h2>
+        ${y(o.blocks)}
+  `).join(`
+`);e.innerHTML=`
+    <section class="page-hero page-hero--compact">
+      <div class="container support-app-hero">
+        <div class="support-app-hero__icon">${t?p(t):""}</div>
+        <div>
+          <p class="eyebrow">${a(i.eyebrow)}</p>
+          <h1 class="page-hero__title">${a(i.title)}</h1>
+          <p class="page-hero__lead">${a(i.lead)}</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container prose support-privacy-prose">
+        <p>${a(i.intro)}</p>
+        ${r}
+
+        <div class="hero__actions support-privacy-actions">
+          <a href="/support/digital-chapel.html" class="btn btn-primary">Digital Chapel Support →</a>
+          <a href="/privacy/digital-chapel.html" class="btn btn-secondary">Privacy Policy</a>
+          <a href="/marketing/digital-chapel.html" class="btn btn-secondary">App Overview</a>
+          <a href="/support.html" class="btn btn-secondary">Support Home</a>
+        </div>
+      </div>
+    </section>
+  `}s();g();
