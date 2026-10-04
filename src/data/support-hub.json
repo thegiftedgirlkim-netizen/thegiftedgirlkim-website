@@ -193,12 +193,12 @@
       ]
     },
     "mappy-navigation": {
-      "version": "4.2 (iOS 1.0.8)",
-      "lastUpdated": "August 8, 2026",
-      "effectiveDate": "August 8, 2026",
-      "dataCollected": "Mappy Navigation uses precise or approximate location, destinations, route details, and search requests to provide maps, routing, navigation, nearby-place discovery, arrival help, and watch directions. Saved trips, Arrival Guides, preferences, and free AI Trip Designer usage counters are stored locally on your device. When you choose to use the optional AI Trip Designer, the trip-planning information you submit is sent through Mappy's backend server to Groq, the third-party AI provider Mappy uses to generate a suggested itinerary. Optional photos are accessed only when you choose to add one. We do not sell personal information or use it for third-party advertising.",
+      "version": "4.2 (Android Mapbox production)",
+      "lastUpdated": "October 4, 2026",
+      "effectiveDate": "October 4, 2026",
+      "dataCollected": "Mappy Navigation uses precise or approximate location, destinations, route details, and search requests to provide maps, routing, navigation, nearby-place discovery, parking help, train/airport tools, See Before / Street View handoff, arrival help, and watch directions. Saved trips, Arrival Guides, Journey Spots, road reports, recent destinations, Translate history, Parked Here details, offline trip-pack metadata, preferences, and free Guide AI Trip Designer usage counters are stored locally on your device. When you choose optional Guide AI Trip Designer, the trip-planning information you submit is sent through Mappy's backend server to Groq to generate a suggested itinerary. Optional photos are accessed only when you choose to add one. We do not sell personal information or use it for third-party advertising.",
       "onDeviceOnly": false,
-      "thirdPartyServices": "Map, search, routing, traffic, weather, and place-data providers used to deliver the feature you request; Groq, accessed through Mappy's backend server, for optional AI Trip Designer plans; Apple App Store and Google Play for purchases and subscription management; and native Apple Watch / Wear OS services for companion directions. Store providers process payments, and Mappy does not receive your complete card number.",
+      "thirdPartyServices": "Mapbox for maps, search, and routing in the current Android production build; Open-Meteo for weather where shown; MyMemory for optional Mappy Plus Translate text you submit; Groq, accessed through Mappy's backend server, for optional AI Trip Designer plans; Google Street View when you choose external 360 View; Apple App Store and Google Play for purchases and subscription management; and native Apple Watch / Wear OS services for companion directions. Store providers process payments, and Mappy does not receive your complete card number.",
       "marketing": {
         "headline": "More than directions — a companion for the whole journey.",
         "intro": [
@@ -222,15 +222,31 @@
       "extraSections": [
         {
           "title": "Location and Navigation",
-          "body": "Mappy requests location permission to show your position, calculate routes, provide active navigation, find nearby places, and share current route guidance with a paired watch. Location and route requests are sent to the map, search, routing, traffic, weather, or place-data provider needed for the feature you selected. You can manage location permission in device Settings."
+          "body": "Mappy requests location permission to show your position, calculate routes, provide active navigation, find nearby places, and power location-based tools, including sharing current route guidance with a paired watch when available. Location and route requests are sent to the map, search, routing, traffic, weather, or place-data provider needed for the feature you selected (currently Mapbox for maps/search/routing in the Android production build; weather uses Open-Meteo where shown). You can manage location permission in your device settings or from Privacy & Data inside Mappy."
         },
         {
-          "title": "AI Trip Designer",
-          "body": "Mappy includes an optional AI-assisted Trip Designer. Information is sent for AI planning only when you choose to use that feature (for example, by creating a trip plan after reviewing the in-app AI notice). When you use AI Trip Designer, the trip-planning information you submit is sent through Mappy's backend server to Groq, the third-party AI provider Mappy uses to generate the suggested itinerary. Information that may be transmitted for an AI plan: origin (starting location text), destination or area text, trip duration/days, travel style/preferences, optional notes you enter about what matters most, verified road mileage and travel time from map routing, and verified nearby mapped places (name, place type, and coordinates) that Mappy already found through public map services. Information that is not included in the AI Trip Designer request: your name, email address, Apple ID, phone number, payment or card details, photos, Arrival Guides, saved trip notes beyond the current planning form, or a continuous live GPS track of your device. Do not enter sensitive personal information in trip notes. Retention: Mappy's trip-planner backend processes the request to create a plan and return it to your device. The Mappy trip-planner function does not save your AI prompts or AI responses in a Mappy database. Completed plans you choose to save remain on your device as local saves. Groq may temporarily retain or log requests under its own provider policies for system reliability or abuse monitoring unless otherwise configured in Groq account settings; see Groq's Your Data in GroqCloud documentation for current practices. Platform infrastructure that hosts Mappy's backend may also keep standard operational logs under that provider's terms. AI-generated travel suggestions may contain errors or be incomplete. Confirm hours, accessibility, weather, road conditions, and other important travel details independently before traveling."
+          "title": "Saved Information on This Device",
+          "body": "The following are stored locally unless a feature clearly tells you otherwise: saved Drive trips and Guide trip plans; Arrival Guides; Journey Spots / scenic pins and local community report or hide lists; recent Drive destinations (convenience shortcuts, not a synced location-history account); Parked Here (coordinates, optional note, optional photo, optional timer); Translate recent history; offline trip-pack metadata (and downloaded map corridor data managed by Mapbox TileStore on device); preferences such as map style and unit system; and the free Guide AI plan monthly usage counter. You can delete Mappy-owned local saves from Privacy & Data inside the app. Uninstalling Mappy may also remove locally stored information."
         },
         {
-          "title": "Saved Information and Optional Photos",
-          "body": "Saved trips, Arrival Guides, preferences, and usage counters are stored locally on your device unless a feature clearly tells you otherwise. Camera or photo-library access is used only when you choose to add an image. You can export or delete local Mappy data from the app. Uninstalling the app may also remove locally stored information."
+          "title": "Parked Here",
+          "body": "When you save Parked Here, Mappy stores the spot on this device only: map coordinates, optional level or spot notes, an optional photo you choose, and an optional timer. It is used to help you find your car later and is not uploaded to Mappy servers."
+        },
+        {
+          "title": "Translate, Clipboard, and Speak",
+          "body": "Mappy Plus Translate sends only the text you choose to submit to MyMemory's translation service. When Translate opens, Mappy may briefly preview text already on your clipboard so you can tap to use it. Clipboard text is not sent until you submit. Speak uses your device's text-to-speech and does not send audio to the cloud. Recent translations stay on this device. Translate does not use your free Guide AI trip plan allowance."
+        },
+        {
+          "title": "AI Trip Designer (Guide)",
+          "body": "Optional AI-assisted Trip Designer in Mappy Guide sends planning information only when you create a plan. Information that may be transmitted: origin text, destination/area text, days, travel style, optional notes, verified road mileage/time, and verified nearby mapped places (name, type, coordinates). Not included: your name, email, store account IDs, payment details, photos, Arrival Guides, or a continuous live GPS track. Do not enter sensitive personal information in planner notes. Mappy's trip-planner backend does not save AI prompts or responses in a Mappy database. Plans you save remain on this device. Groq and hosting infrastructure may retain operational logs under their own policies. AI suggestions can be inaccurate — confirm travel details independently."
+        },
+        {
+          "title": "Maps and Other Providers",
+          "body": "Maps, place searches, reverse geocoding, and driving routes are processed by Mapbox. Live train and flight schedules may open an external provider subject to that provider's privacy policy. Weather uses Open-Meteo where shown. Street-level 360 View may open Google Street View externally when you choose that action. Guide place verification and road-mileage checks for AI Trip Designer also use public map services as described above."
+        },
+        {
+          "title": "Photos and Camera",
+          "body": "If you attach a travel photo (for example Journey Spot or Parked Here), Mappy accesses only the camera or photo selection you authorize for that action. Photos saved with those features remain on this device unless a future feature clearly offers and you choose cloud sharing."
         },
         {
           "title": "Watch Companion",
@@ -238,11 +254,15 @@
         },
         {
           "title": "Subscriptions",
-          "body": "Mappy Plus purchases are processed by Apple or Google. Mappy receives purchase status needed to unlock features but does not receive your complete payment-card information. Deleting Mappy or its local data does not cancel a subscription; manage or cancel it through your App Store or Google Play account."
+          "body": "Mappy Plus purchases are processed by Apple or Google. Mappy receives purchase status needed to unlock features but does not receive your complete payment-card information. Deleting Mappy or its local data does not cancel a subscription; manage or cancel it through your App Store or Google Play account, or use Manage Subscription in Privacy & Data."
+        },
+        {
+          "title": "What Deleting Local Mappy Data Does Not Do",
+          "body": "Delete My Mappy Data removes Mappy-owned information stored on this device. It does not cancel a Google Play or Apple subscription, delete store billing records, or erase logs held by Mapbox, Google, MyMemory, Groq, or other third-party providers. Those services are outside Mappy's ownership. After deletion, Mappy tells you what was deleted and what was not."
         },
         {
           "title": "Data Retention and Deletion",
-          "body": "Local Mappy data remains on your device until you delete it, clear app storage, or uninstall the app. Mappy does not save AI Trip Designer prompts or responses to a Mappy database. Information temporarily processed by service providers such as Groq is retained according to their policies and as needed to provide, secure, and troubleshoot the requested feature. For privacy or support requests, email thegiftedgirlkim@gmail.com."
+          "body": "Local Mappy data remains on your device until you delete it from Privacy & Data, clear app storage, or uninstall the app. Mappy does not save AI Trip Designer prompts or responses to a Mappy database. Information temporarily processed by service providers such as Groq or Mapbox is retained according to their policies and as needed to provide, secure, and troubleshoot the requested feature. For privacy or support requests, email thegiftedgirlkim@gmail.com."
         }
       ],
       "knownIssues": [
@@ -258,7 +278,7 @@
       "faqs": [
         {
           "question": "Why does Mappy need my location?",
-          "answer": "Location permission powers the map, route calculation, active navigation, nearby searches, arrival help, and watch directions. You can manage permission in device Settings."
+          "answer": "Location permission powers the map, route calculation, active navigation, nearby searches, parking help, arrival help, and watch directions. You can manage permission from Privacy & Data in Mappy or in device Settings."
         },
         {
           "question": "How does the watch companion work?",
@@ -274,7 +294,7 @@
         },
         {
           "question": "How do I delete my information?",
-          "answer": "Open Mappy's data controls to export or delete locally saved information. You may also clear app storage or uninstall the app. Email thegiftedgirlkim@gmail.com if you need privacy help."
+          "answer": "Open Privacy & Data inside Mappy to read the Privacy Policy offline, manage location permission or subscription, and use Delete My Mappy Data for Mappy-owned local saves. That wipe does not cancel store billing or erase third-party provider logs. You may also clear app storage or uninstall the app. Email thegiftedgirlkim@gmail.com if you need privacy help."
         },
         {
           "question": "Where can I report a problem or suggest a feature?",
