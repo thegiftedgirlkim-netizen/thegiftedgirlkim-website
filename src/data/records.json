@@ -1,0 +1,84 @@
+{
+  "songs": [
+    {
+      "id": "generation-of-1826",
+      "title": "Generation of 1826",
+      "description": "A musical tribute to American heritage, family history, and the generations that came before us.",
+      "cover": "/assets/records/covers/generation-of-1826.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "oklahoma-sun",
+      "title": "Oklahoma Sun",
+      "description": "An Oklahoma country story of open land, enduring love, and memories carried beneath the setting sun.",
+      "cover": "/assets/records/covers/oklahoma-sun.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "a-cowboys-way",
+      "title": "A Cowboy's Way",
+      "description": "A tribute to hard work, family pride, and a life lived the cowboy's way.",
+      "cover": "/assets/records/covers/a-cowboys-way.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "my-eternity-you",
+      "title": "My Eternity = You",
+      "description": "A timeless love story wrapped in the spirit of classic rock-and-roll romance.",
+      "cover": "/assets/records/covers/my-eternity-you.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": false,
+      "order": 4
+    },
+    {
+      "id": "hello-god",
+      "title": "Hello God",
+      "description": "A heartfelt musical conversation about faith, gratitude, and finding strength along life's winding roads.",
+      "cover": "/assets/records/covers/hello-god.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": false,
+      "order": 5
+    },
+    {
+      "id": "his-girl",
+      "title": "His Girl",
+      "description": "A moving expression of faith, prayer, and the comfort of divine love.",
+      "cover": "/assets/records/covers/his-girl.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": false,
+      "order": 6
+    },
+    {
+      "id": "a-little-faith",
+      "title": "A Little Faith, A Little Prayer",
+      "description": "A gentle reminder that a little faith and a little prayer can carry us through life's hardest moments.",
+      "cover": "/assets/records/covers/a-little-faith.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": false,
+      "order": 7
+    },
+    {
+      "id": "spirit-of-my-grandpas",
+      "title": "Spirit of My Grandpa's",
+      "description": "A personal tribute to family roots, treasured memories, and the generations whose stories live on.",
+      "cover": "/assets/records/covers/spirit-of-my-grandpas.jpg",
+      "width": 1254,
+      "height": 1332,
+      "featured": false,
+      "order": 8
+    }
+  ]
+}

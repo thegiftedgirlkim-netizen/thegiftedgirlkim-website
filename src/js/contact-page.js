@@ -4,6 +4,12 @@ mountShell();
 
 const site = getSite();
 const form = document.querySelector('[data-contact-form]');
+const requestedTopic = new URLSearchParams(window.location.search).get('topic');
+const topicField = form?.querySelector('[name="topic"]');
+if (requestedTopic && topicField) {
+  const match = [...topicField.options].find((option) => option.value === requestedTopic);
+  if (match) topicField.value = requestedTopic;
+}
 form?.addEventListener('submit', (event) => {
   event.preventDefault();
   const data = new FormData(form);

@@ -8,3 +8,6 @@ marketing/
 *.log
 .env
 .env.*
+*.mp3
+*.wav
+*.docx

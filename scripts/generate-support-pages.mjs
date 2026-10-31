@@ -123,6 +123,8 @@ ${TAIL('/src/js/app-marketing-page.js')}`;
     ['/', 'weekly', '1.0'],
     ['/apps.html', 'weekly', '0.9'],
     ['/books.html', 'monthly', '0.8'],
+    ['/records.html', 'monthly', '0.8'],
+    ['/short-films.html', 'monthly', '0.8'],
     ['/shop.html', 'monthly', '0.7'],
     ['/about.html', 'monthly', '0.8'],
     ['/support.html', 'weekly', '0.9'],

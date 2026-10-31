@@ -6,6 +6,8 @@ const rootPages = [
   'index',
   'apps',
   'books',
+  'records',
+  'short-films',
   'shop',
   'about',
   'support',

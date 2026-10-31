@@ -6,6 +6,8 @@ const NAV = [
   { href: '/', label: 'Home', page: 'index' },
   { href: '/apps.html', label: 'Apps', page: 'apps' },
   { href: '/books.html', label: 'Books', page: 'books' },
+  { href: '/records.html', label: 'Records', page: 'records' },
+  { href: '/short-films.html', label: 'Short Films', page: 'short-films' },
   { href: '/shop.html', label: 'Shop', page: 'shop' },
   { href: '/about.html', label: 'About Kimberly', page: 'about' },
   { href: '/support.html', label: 'Support', page: 'support' },
@@ -106,6 +108,8 @@ export function renderFooter() {
           <a href="/">Home</a>
           <a href="/apps.html">Apps</a>
           <a href="/books.html">Books</a>
+          <a href="/records.html">Records</a>
+          <a href="/short-films.html">Short Films</a>
           <a href="/shop.html">Shop</a>
           <a href="${site.etsyShop.url}" target="_blank" rel="noopener noreferrer">Etsy ↗</a>
           <a href="/about.html">About</a>
