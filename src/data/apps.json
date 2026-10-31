@@ -40,25 +40,6 @@
       }
     },
     {
-      "id": "afterlife-network",
-      "name": "Afterlife Network",
-      "tagline": "Spirit communication with safety at the center.",
-      "description": "Explore spirit communication tools including Sensor Synth, Live Sweep, and Word Beacon \u2014 with community safety controls.",
-      "icon": "/assets/apps/afterlife-network.png",
-      "iconSource": "App Store (id6781073734) \u2014 official marketing icon",
-      "category": "Entertainment",
-      "status": "Live on Apple",
-      "featured": true,
-      "order": 1,
-      "iosAppId": "6781073734",
-      "links": {
-        "ios": "https://apps.apple.com/app/id6781073734",
-        "android": "",
-        "support": "/support/afterlife-network.html",
-        "privacy": "/privacy/afterlife-network.html"
-      }
-    },
-    {
       "id": "mappy-navigation",
       "name": "Mappy Navigation",
       "tagline": "Navigation for the whole journey.",

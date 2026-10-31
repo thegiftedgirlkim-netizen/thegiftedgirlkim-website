@@ -9,12 +9,12 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="The Gifted Girl Kim LLC">
   <meta property="og:title" content="GGK Short Films — The Gifted Girl Kim LLC">
-  <meta property="og:description" content="Original cinematic stories, short movies, and character-driven productions from GGK Short Films.">
+  <meta property="og:description" content="Original Stories. Brought to Life. GGK Short Films is a creative brand of The Gifted Girl Kim LLC.">
   <meta property="og:url" content="https://thegiftedgirlkim.com/short-films.html">
   <meta property="og:image" content="https://thegiftedgirlkim.com/assets/records/ggk-records-logo.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GGK Short Films — The Gifted Girl Kim LLC">
-  <meta name="twitter:description" content="Original cinematic stories, short movies, and character-driven productions from GGK Short Films.">
+  <meta name="twitter:description" content="Original Stories. Brought to Life. GGK Short Films is a creative brand of The Gifted Girl Kim LLC.">
   <meta name="twitter:image" content="https://thegiftedgirlkim.com/assets/records/ggk-records-logo.jpg">
   <link rel="icon" href="/assets/brand/company-logo.jpeg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,8 +23,9 @@
   <link rel="stylesheet" href="/src/css/base.css">
   <link rel="stylesheet" href="/src/css/components.css">
   <link rel="stylesheet" href="/src/css/records.css">
+  <link rel="stylesheet" href="/src/css/short-films.css">
 </head>
-<body class="page-shell page-films">
+<body class="page-shell page-records page-films">
   <a class="skip-link" href="#main">Skip to content</a>
   <div data-site-header></div>
   <main id="main" class="page-main">
@@ -47,58 +48,31 @@
     <section class="records-section" aria-labelledby="featured-film-heading">
       <div class="container">
         <div class="records-section__head">
-          <p class="records-kicker">In development</p>
+          <p class="records-kicker">In the studio</p>
           <h2 id="featured-film-heading">Featured Production</h2>
+          <p class="film-note">The featured space below is a preview layout. It is not a finished film, and no release is announced here.</p>
         </div>
-        <p class="film-note">This area is a layout preview. It is not a completed release, and no title, cast, date, or trailer is announced yet.</p>
-        <article class="records-card film-preview">
-          <div class="film-preview__poster">
-            <span>Preview</span>
-            <strong>Poster coming</strong>
-            <p>Approved artwork will replace this placeholder.</p>
-          </div>
-          <div class="records-card__body">
-            <p class="records-card__brand">GGK Short Films · Preview</p>
-            <h3>Featured production</h3>
-            <p>A space for one approved film poster, title, and description. Nothing shown here is a finished film.</p>
-          </div>
-        </article>
+        <div class="records-grid records-grid--featured" data-films-featured></div>
       </div>
     </section>
 
     <section class="records-section records-section--catalog" aria-labelledby="film-gallery-heading">
       <div class="container">
         <div class="records-section__head">
-          <p class="records-kicker">The studio</p>
+          <p class="records-kicker">The slate</p>
           <h2 id="film-gallery-heading">Film Projects</h2>
+          <p class="film-note">Approved posters, titles, descriptions, and trailers will replace these previews when they are provided.</p>
         </div>
-        <p class="film-note">Future projects can show an approved poster, title, description, and trailer. These cards are previews only.</p>
-        <div class="records-grid records-grid--catalog">
-          <article class="records-card film-preview">
-            <div class="film-preview__poster">
-              <span>Preview</span>
-              <strong>Project slot</strong>
-              <p>Not a completed release.</p>
-            </div>
-            <div class="records-card__body">
-              <p class="records-card__brand">GGK Short Films · Preview</p>
-              <h3>Project preview</h3>
-              <p>Reserved for an approved short film. No trailer is available.</p>
-            </div>
-          </article>
-          <article class="records-card film-preview">
-            <div class="film-preview__poster">
-              <span>Preview</span>
-              <strong>Project slot</strong>
-              <p>Not a completed release.</p>
-            </div>
-            <div class="records-card__body">
-              <p class="records-card__brand">GGK Short Films · Preview</p>
-              <h3>Project preview</h3>
-              <p>Reserved for an approved short film. No trailer is available.</p>
-            </div>
-          </article>
-        </div>
+        <div class="records-grid records-grid--catalog" data-films-gallery></div>
+      </div>
+    </section>
+
+    <section class="records-section records-section--about" aria-labelledby="about-films-heading">
+      <div class="container records-prose">
+        <p class="records-kicker">The brand</p>
+        <h2 id="about-films-heading">About GGK Short Films</h2>
+        <p>GGK Short Films is the original-film brand of The Gifted Girl Kim LLC, alongside GGK Records. The studio is devoted to original cinematic stories, short movies, and character-driven productions.</p>
+        <p>Projects shown before approved artwork arrives are layout previews only. They are not completed releases.</p>
       </div>
     </section>
 
@@ -114,6 +88,6 @@
     <p class="records-close">GGK Short Films — A creative brand of The Gifted Girl Kim LLC.</p>
   </main>
   <div data-site-footer></div>
-  <script type="module" src="/src/js/films-page.js"></script>
+  <script type="module" src="/src/js/short-films-page.js"></script>
 </body>
 </html>

@@ -42,62 +42,6 @@
       },
       "featured": true,
       "order": 3
-    },
-    {
-      "id": "ep-then-and-now-en",
-      "title": "Elvis Presley: Then and Now",
-      "subtitle": "English Edition",
-      "author": "The Gifted Girl Kim",
-      "description": "A thoughtful exploration of Elvis Presley’s legacy — then and now — for readers who love music, memory, and meaning.",
-      "cover": "/assets/books/ep-then-and-now-en.jpg",
-      "coverSource": "Kimberly_App_Studio/Graphics/Images/Elvis Presley Then and Now Cover.jpeg",
-      "links": {
-        "amazon": "https://www.amazon.com/ELVIS-PRESLEY-THEN-NOW-GIFTED-GIRL-ebook/dp/B0GXX95K1H"
-      },
-      "featured": true,
-      "order": 4
-    },
-    {
-      "id": "ep-then-and-now-it",
-      "title": "Elvis Presley: Then and Now",
-      "subtitle": "Italian Edition",
-      "author": "The Gifted Girl Kim",
-      "description": "The Italian-language edition celebrating Elvis Presley’s enduring influence across generations.",
-      "cover": "/assets/books/ep-then-and-now-it.jpg",
-      "coverSource": "Kimberly_App_Studio/Graphics/Images/EP THEN AND NOW IT COVER.JPG",
-      "links": {
-        "amazon": "https://www.amazon.com/-/es/GIFTED-GIRL-KIM-ebook/dp/B0GZF9LFGT"
-      },
-      "featured": true,
-      "order": 5
-    },
-    {
-      "id": "ep-span-book",
-      "title": "Elvis Presley: Antes y Ahora",
-      "subtitle": "Spanish Edition",
-      "author": "The Gifted Girl Kim",
-      "description": "The Spanish-language edition celebrating Elvis Presley’s enduring influence across generations.",
-      "cover": "/assets/books/ep-span-book.jpg",
-      "coverSource": "Kimberly_App_Studio/Graphics/Images/EP SPAN BOOK COVER.JPG",
-      "links": {
-        "amazon": "https://www.amazon.com/ELVIS-PRESLEY-ANTES-AHORA-GIFTED-GIRL-ebook/dp/B0GZFCRZ3R"
-      },
-      "featured": true,
-      "order": 6
-    },
-    {
-      "id": "gifted-girl-kim-japanese",
-      "title": "The Gifted Girl Kim",
-      "subtitle": "Japanese Edition",
-      "author": "The Gifted Girl Kim",
-      "description": "The Japanese-language edition — sharing Kimberly’s voice and story with readers across the world.",
-      "cover": "/assets/books/gifted-girl-kim-japanese.jpg",
-      "coverSource": "Kimberly_App_Studio/Graphics/Images/EP THEN AND NOW COVER JAP.jpeg",
-      "links": {
-        "amazon": "https://www.amazon.ca/GIFTED-GIRL-KIM-Japanese-ebook/dp/B0GX2ZS37Z"
-      },
-      "featured": true,
-      "order": 7
     }
   ]
 }

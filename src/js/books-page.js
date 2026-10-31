@@ -12,7 +12,7 @@ if (bannerMount && author?.url) {
       <div>
         <p class="eyebrow">Amazon Author Page</p>
         <h2 class="books-author-banner__title">Browse all books by ${site.brandShort}</h2>
-        <p class="books-author-banner__lead">Memoir, Elvis Presley titles, The Unexpected Soulmate, international editions, and more.</p>
+        <p class="books-author-banner__lead">Memoir, The Unexpected Soulmate, international editions, and more.</p>
       </div>
       <a href="${author.url}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">${author.label} →</a>
     </div>

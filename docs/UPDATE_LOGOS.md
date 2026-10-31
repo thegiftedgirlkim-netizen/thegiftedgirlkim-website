@@ -34,7 +34,6 @@ Source paths are defined in **`scripts/sync-assets.mjs`**. Edit that file when a
 | `brand/company-logo.jpeg` | `Graphics/Images/logo resized.jpeg` |
 | `apps/screenshot-goblin.png` | `Apps/Screenshot Goblin/public/assets/mascot/app-icon-1024.png` |
 | `apps/digital-chapel.png` | `Apps/Digital Chapel/CURRENT BUILD.../AppIcon-512@2x.png` |
-| `apps/afterlife-network.png` | `Apps/Afterlife Network/.../mipmap-xxxhdpi/ic_launcher.png` |
 | `apps/mappy-navigation.png` | `Archives/.../brand-universe/mappy.png` |
 | `apps/meditation-journey-444.png` | `Archives/.../brand-universe/meditation-journey.png` |
 | `apps/memory-friend.png` | `Archives/.../brand-universe/memory-friend.png` |

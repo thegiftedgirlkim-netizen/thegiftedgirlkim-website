@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "featured-production-preview",
+      "title": "Featured production",
+      "description": "This card is a layout preview for a future featured short film. It is not a completed release, and no title, cast, trailer, or release date is announced here.",
+      "poster": null,
+      "trailer": null,
+      "preview": true,
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "project-preview-one",
+      "title": "Project preview",
+      "description": "A placeholder slot for an approved GGK Short Films project. Poster, title, description, and optional trailer will appear here when provided.",
+      "poster": null,
+      "trailer": null,
+      "preview": true,
+      "featured": false,
+      "order": 2
+    },
+    {
+      "id": "project-preview-two",
+      "title": "Project slot",
+      "description": "Another preview slot in the gallery. This is not a finished film and does not represent a released production.",
+      "poster": null,
+      "trailer": null,
+      "preview": true,
+      "featured": false,
+      "order": 3
+    }
+  ]
+}

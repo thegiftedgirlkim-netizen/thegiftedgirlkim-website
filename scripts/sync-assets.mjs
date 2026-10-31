@@ -16,10 +16,6 @@ const studio = '/Volumes/KimT9Drive/Kimberly_App_Studio';
 /** App icons from the live App Store listing (when app is published). */
 const appStoreIcons = [
   {
-    out: 'public/assets/apps/afterlife-network.png',
-    appId: '6781073734'
-  },
-  {
     out: 'public/assets/apps/meditation-journey-444.png',
     appId: '6780117824'
   },
@@ -52,11 +48,7 @@ const copies = [
   ['Archives/Interrupted Partial Copies/WidgetMe_partial_20260624_201612/assets/brand-universe/memory-friend.png', 'public/assets/apps/memory-friend.png'],
   ['Archives/Interrupted Partial Copies/WidgetMe_partial_20260624_201612/assets/brand-universe/mobile-eyes.png', 'public/assets/apps/mobile-eyes.png'],
   ['Graphics/Images/Through my eyes book cover.jpg', 'public/assets/books/through-my-eyes.jpg'],
-  ['Graphics/Images/Elvis Presley Then and Now Cover.jpeg', 'public/assets/books/ep-then-and-now-en.jpg'],
-  ['Graphics/Images/THE UNEXPECTED SOULMATE COVER .JPG', 'public/assets/books/the-unexpected-soulmate.jpg'],
-  ['Graphics/Images/EP THEN AND NOW COVER JAP.jpeg', 'public/assets/books/gifted-girl-kim-japanese.jpg'],
-  ['Graphics/Images/EP THEN AND NOW IT COVER.JPG', 'public/assets/books/ep-then-and-now-it.jpg'],
-  ['Graphics/Images/EP SPAN BOOK COVER.JPG', 'public/assets/books/ep-span-book.jpg']
+  ['Graphics/Images/THE UNEXPECTED SOULMATE COVER .JPG', 'public/assets/books/the-unexpected-soulmate.jpg']
 ];
 
 async function exists(path) {
