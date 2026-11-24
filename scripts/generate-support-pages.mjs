@@ -132,6 +132,7 @@ ${TAIL('/src/js/app-marketing-page.js')}`;
     ['/ggk-commercial-publisher.html', 'monthly', '0.6'],
     ['/ggk-commercial-publisher-privacy.html', 'monthly', '0.6'],
     ['/ggk-commercial-publisher-terms.html', 'monthly', '0.5'],
+    ['/mappy-navigation-terms.html', 'monthly', '0.5'],
     ['/terms.html', 'yearly', '0.5'],
     ['/contact.html', 'yearly', '0.6']
   ];

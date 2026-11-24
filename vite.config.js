@@ -17,6 +17,7 @@ const rootPages = [
   'ggk-commercial-publisher',
   'ggk-commercial-publisher-privacy',
   'ggk-commercial-publisher-terms',
+  'mappy-navigation-terms',
   '404'
 ];
 
