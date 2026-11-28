@@ -90,7 +90,7 @@ function mountPrivacyHome() {
 
         <div class="hero__actions" style="margin-top:1.5rem; justify-content:center;">
           <a href="/support.html" class="btn btn-primary">Support Home →</a>
-          <a href="/terms.html" class="btn btn-secondary">Terms &amp; Conditions</a>
+          <a href="/terms-of-use.html" class="btn btn-secondary">Terms of Use</a>
         </div>
       </div>
     </section>

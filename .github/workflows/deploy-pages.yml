@@ -36,6 +36,7 @@ jobs:
           test -f dist/index.html
           test -f dist/support.html
           test -f dist/terms.html
+          test -f dist/terms-of-use.html
           test -f dist/support/screenshot-goblin.html
           test -f dist/privacy/screenshot-goblin.html
           grep -q '/assets/' dist/index.html

@@ -13,6 +13,7 @@ const rootPages = [
   'support',
   'privacy',
   'terms',
+  'terms-of-use',
   'contact',
   'ggk-commercial-publisher',
   'ggk-commercial-publisher-privacy',

@@ -87,8 +87,8 @@ function mountSupportHome() {
             <h3>Website Privacy Policy</h3>
             <p>How we handle information on thegiftedgirlkim.com</p>
           </a>
-          <a href="/terms.html" class="info-card support-hub-link-card">
-            <h3>Terms &amp; Conditions</h3>
+          <a href="/terms-of-use.html" class="info-card support-hub-link-card">
+            <h3>Terms of Use</h3>
             <p>Terms of use for apps and digital products</p>
           </a>
         </div>

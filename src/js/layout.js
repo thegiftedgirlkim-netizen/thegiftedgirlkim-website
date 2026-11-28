@@ -115,7 +115,7 @@ export function renderFooter() {
           <a href="/about.html">About</a>
           <a href="/support.html">Support</a>
           <a href="/privacy.html">Privacy</a>
-          <a href="/terms.html">Terms</a>
+          <a href="/terms-of-use.html">Terms of Use</a>
           <a href="/contact.html">Contact</a>
         </div>
         <div>© ${year} ${site.company}. All rights reserved.</div>
